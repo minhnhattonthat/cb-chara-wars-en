@@ -7,8 +7,8 @@
    "038BCA"
   ],
   "jp": "{fd:04}はじめまして!　　{n}あなたたちのことは　　{n}\"きくのすけちゃん\"に　きいてるわ!{n}{n}わたしのなまえは　\"みき\"　{n}あなたたちと　おなじように　{n}ワールドのために　たたかっているの{n}{n}あなたたちは　　{n}このワールドに　きたのは　　{n}はじめてみたいだから　おしえてあげるわね{n}{n}このワールドは　　{n}\"ハレンチがくえんワールド\"　{n}がくえんを　ちゅうしんにして{n}ひとつのワールドをけいせいしているの{n}でも{fd:09}　{fd:04}このワールドも　{n}ほかのワールドとおなじように　{n}ギャグが　なくなって{n}みんなおちこんでいるわ!!{n}このワールドを　すくえるのは　　{n}あなたたちしかいないの{n}おねがい!{fd:06}　{fd:04}このワールドをすくって!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Nice to meet you! I've heard all about you from \"Kikunosuke\"!{p}My name is \"Miki.\" Just like you, I'm fighting for the sake of the Worlds.{p}It looks like this is your first time in this World, so let me fill you in.{p}This World is \"Harenchi Gakuen World,\" a whole World built around a school.{p}But{fd:09} {fd:04}just like the other Worlds, this one has lost its gags, and everyone's down in the dumps!!{p}You're the only ones who can save this World. Please!{fd:06} {fd:04}Save this World!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -19,8 +19,8 @@
    "038BCD"
   ],
   "jp": "{fd:04}まっていたわ!　{n}このワールドの　ナゾが　とけたのよ!{n}{n}{n}\"ハレンチがくえん\"のどこかに　{n}ひみつのけんきゅうしつがあって　　{n}そこに　このワールドのボスが　{n}いるらしいわ!!{n}でも{fd:09}　{fd:04}ひみつのけんきゅうしつに　いくには{n}カギが　ひつようになるらしいわ!　　{n}カギをさがすのよ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}I've been waiting for you! I've solved this World's mystery!{p}Somewhere in \"Harenchi Gakuen\" there's a secret lab, and this World's boss is supposedly in there!!{p}But{fd:09} {fd:04}it seems you'll need a key to get into the secret lab! Find the key!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -31,8 +31,8 @@
    "038BD0"
   ],
   "jp": "{fd:02}おほほほほほほほほほ{n}{fd:04}あたちは\"メカヒゲゴジラ\"!!　{n}{n}{n}あなた{fd:06}　{fd:04}あたちに　かつつもりでいるわね!{n}ムリよ!!ムリ!!　　{n}あなたたちに　このワールドは　　{n}わたさないわ!!{n}このワールドは　　{n}あたちたち　おかまのものよおー{n}{fd:02}イーヒッヒヒヒヒヒ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Oh ho ho ho ho ho ho ho ho! {fd:04}I'm \"Mecha Hige-Godzilla\"!!{p}You{fd:06} {fd:04}think you can beat me, don't you! Impossible!! Impossible, darling!! This World is not yours to take!!{p}This World belongs to us queens, darliiing! {fd:02}Eee-hee hee hee hee hee!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -43,8 +43,8 @@
    "038BD3"
   ],
   "jp": "{fd:04}ひみつのけんきゅうしつは　{n}ちかにあって　　{n}がっこうの　どこかに　いりぐちが{n}あるはず!!　{n}いりぐちを　さがして!　{n}めじるしは　　{n}おおきな　カギあならしいわ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The secret lab is underground, and its entrance should be somewhere in the school!! Find the entrance! The landmark is supposedly a big keyhole.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -56,8 +56,8 @@
    "038D56"
   ],
   "jp": "{fd:04}よう!　{n}\"みき\"には　あったかい!?{n}{n}{n}このがっこうの　しょくいんしつには{n}ちゅうボスが　いるらしい　　{n}てごわいから　きをつけるんだぜ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hey! Did you meet \"Miki\"!?{p}They say there's a mid-boss in this school's staff room. It's tough, so watch yourselves!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -68,8 +68,8 @@
    "038BD9"
   ],
   "jp": "{fd:01}やあ!!　　{n}{fd:03}キミたちは　　{n}ちゃんと　べんきょうしているかい?{n}{n}なんなら　わたしが　きみたちに　{n}べんきょうを　おしえてやろうではないか!{n}{n}{n}では・・・・・・・・・・・{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:01}Hello there!! {fd:03}Are you kids studying properly?{p}If you like, I shall teach you a lesson myself!{p}Now then......{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -80,8 +80,8 @@
    "038BDC"
   ],
   "jp": "{fd:03}べんきょうできた・・・?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Did you learn your lesson...?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -92,8 +92,8 @@
    "038D4D"
   ],
   "jp": "{fd:04}\"デーモン\"っていう　てきは{n}なんにでも　{n}のりうつることが　できるらしいわ!{n}{n}{n}つまり　　{n}\"にんぎょう\"とか\"き\"などに{n}のりうつって　　{n}こうげきしてきたり　するらしいわ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}I hear the enemies called \"Demons\" can possess just about anything!{p}So they might possess things like \"dolls\" or \"trees\" and come attack you!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -104,8 +104,8 @@
    "038D50"
   ],
   "jp": "{fd:04}てきの\"てっかめん\"は{n}たおすと　じぶんの　こぶんに　　{n}することができるわ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}If you defeat an \"Iron Mask\" enemy, you can make him your henchman!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -116,8 +116,8 @@
    "038D53"
   ],
   "jp": "{fd:04}がっこうの　まわりヂャ　　{n}\"さくらのき\"が　{n}うごいたりするそうヂャ{n}{n}{n}ほんとうに　よのなか{n}かわったもんヂャー!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}They say the \"cherry trees\" round the school have been movin' about!{p}What's the world comin' to!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -128,8 +128,8 @@
    "038BDF"
   ],
   "jp": "{fd:04}わたしのなまえは　\"さやか\"{n}あなたたちがくるのを　まっていたわ!　　{n}{n}{n}ここは　ふじさんの　ふもとのまち　{n}\"マジンガーワールド\"よ!!　　　{n}みぎにすすむと　ふじさんへ{n}いくことが　できるわ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}My name is \"Sayaka.\" I've been waiting for you to come!{p}This is \"Mazinger World,\" a town at the foot of Mt. Fuji!! Head right and you can get to Mt. Fuji!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -140,8 +140,8 @@
    "038BE2"
   ],
   "jp": "{fd:04}どうくつのおくには　{n}ガラダK7などの　ちゅうボスが　いて　　{n}とても　きけんよ!　{n}ちゅういしてね!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Deep in the cave there are mid-bosses like Garada K7, and it's very dangerous! Be careful!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -152,8 +152,8 @@
    "038BE5"
   ],
   "jp": "{fd:04}むかし　おばあちゃんに{n}きかされたことが　あるんだけど　　{n}{n}{n}この　どうくつのなかには{n}ふんすいにつづく　ちかすいろが{n}あるらしいわ!!{n}{n}そのちかすいろを　つかうと　{n}アッというまに　{n}まちまで　いけるんじゃないかしら?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Something my grandma told me a long time ago...{p}Supposedly there's an underground waterway in this cave that leads to the fountain!!{p}If you use that waterway, maybe you can get to town in no time at all?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -164,8 +164,8 @@
    "038BE8"
   ],
   "jp": "{fd:03}よく　ここまできたな!{n}{n}{n}{n}ワレは　\"うなじゅう\"　　{n}キサマたちを　たおすために{n}みずうみのうなぎに{n}のりうつっている\"デーモン\"さまだ!{n}{fd:01}しかあぁしっ!!　　{n}{fd:03}ここからさきへは　とおさんぞ!!{n}{n}{n}おまえたちを\"せいしょうたいしゃ\"に{n}いかせないよう　　{n}\"あるおかた\"のめいれいを　{n}うけているからなっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}So, you've made it this far!{p}I am \"Unaju,\" the mighty \"Demon\" who possessed the lake's eel in order to defeat you!{p}{fd:01}Howeverrr!! {fd:03}You shall not pass beyond this point!!{p}For I am under orders from \"a certain someone\" not to let you reach \"Seisho Shrine\"!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -176,8 +176,8 @@
    "038D59"
   ],
   "jp": "{fd:04}みずうみのヌシだった　\"うなぎ\"が　{n}さいきん　すがたを　みせないのよね　{n}どうしちゃったのかしら?　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The \"eel\" that was the lord of the lake hasn't shown itself lately. I wonder what happened to it?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -188,8 +188,8 @@
    "038D5C"
   ],
   "jp": "{fd:04}このまえ　　{n}\"せいしょうたいしゃ\"にいって　{n}\"ギャーグ\"を　みてきたんだけど{n}{n}{n}あれをみていると　{n}なんだか　きもちが　{n}すっきりしてくるのよ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The other day I went to \"Seisho Shrine\" and saw the \"Gaaag.\"{p}Somehow, just looking at it makes me feel all refreshed.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -200,8 +200,8 @@
    "038D5F"
   ],
   "jp": "{fd:04}\"ギャーグ\"って　\"ギャグ\"のもと{n}{n}{n}{n}{n}むかし　かみさまが　{n}みんなが　たのしく　{n}せいかつできるように{n}つくったそうだわ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The \"Gaaag\" is the source of all \"gags.\"{p}They say long ago, the gods made it so that everyone could live happily.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -212,8 +212,8 @@
    "038D62"
   ],
   "jp": "{fd:04}L・Rボタンを　つかった　{n}カベのぼりは　こっからさき　{n}ちゃんと　おぼえていないと　つらいよ!{n}{n}れんしゅうしときな!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}From here on, wall climbing with the L and R buttons gets rough if you haven't got it down! Go practice!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -224,8 +224,8 @@
    "038D6E"
   ],
   "jp": "{fd:04}よう!!よくきたな!{n}オレは　\"つるぎ　てつや\"だ{n}よろしく!!{n}{n}はなしは　かわるけど{n}オレの　あいぼうの{n}\"グレートマジンガー\"を　みなかったか?{n}{n}さいきん　グレてるけど{n}ほんとうは　いいヤツなんだ　　　{n}だれかの　せいで{n}ああなっているだけなんだ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hey!! Glad you made it! I'm \"Tetsuya Tsurugi.\" Nice to meet you!!{p}Changing the subject, have you seen my partner \"Great Mazinger\"?{p}He's been a great big delinquent lately, but deep down he's a good guy. It's just somebody's fault he's like that!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -236,8 +236,8 @@
    "038BEE"
   ],
   "jp": "{fd:03}よくきたな!{n}オレは　\"グレートマジンガー\"だ!!{n}{n}{n}このさきの　ひみつきちには　{n}いっぽたりとも　いれさせないぞ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}So you've come! I'm \"Great Mazinger\"!!{p}I won't let you set one foot in the secret base ahead!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -248,8 +248,8 @@
    "038BEB"
   ],
   "jp": "{fd:04}こんにちは　わたしは　\"ジュン\"　　{n}さっそくだけど　おねがいがあるの{n}{n}{n}このワールドの　どこかにいる{n}\"グレートマジンガー\"を　たすけて!　　{n}{n}{n}かれは　せいぎのみかただったのに　{n}だれかに　せんのうされて　{n}あくの　てさきに　なっているわ!{n}{n}おねがい!　かれを　たすけて!{n}せんのうは{n}ダメージを　あたえることによって{n}しょうきに　もどすことができるわ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hello, I'm \"Jun.\" I hate to ask right away, but I need a favor.{p}Please save \"Great Mazinger,\" who's somewhere in this World!{p}He was a champion of justice, but someone brainwashed him and now he's a pawn of evil!{p}Please, save him! You can bring him back to his senses by dealing him damage!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -260,8 +260,8 @@
    "038BF1"
   ],
   "jp": "{fd:08}・・・オ・・オレは　いったい・・・{n}なにをしていたんだ・・・{n}{n}{n}{fd:04}そうだ・・・　　　　{n}ヤツに　せんのうされて・・・・{n}{n}{n}きみたちが　しょうきに　{n}もどしてくれたんだね　　　{n}ありがとう!!{n}{n}きちのなかには　つよいてきがいるから{n}きをつけろよ{n}この　おれいは　きっとかならずするぜ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:08}...Wh...What have I... been doing...?{p}{fd:04}That's right... He brainwashed me...{p}You brought me back to my senses. Thank you!!{p}There are strong enemies inside the base, so be careful. I'll pay you back for this, I promise!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -272,8 +272,8 @@
    "038BF4"
   ],
   "jp": "{fd:04}ジャ　ジャ　ジャ　ジャアァァァン!!{n}{n}{n}{n}{fd:03}オレさまは　\"ダブラスM2\"だあぁぁぁ!{n}こっからさきには　とおさないずぉぉぉぉぉ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Dun dun dun DUUUUN!!{p}{fd:03}I am \"Doublas M2\"!! You ain't gettin' past heeeeere!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -284,8 +284,8 @@
    "038BF7"
   ],
   "jp": "{fd:02}きたか・・・・まっていたよ　　　　{n}つい　さっきまで　{n}ここに　\"グール\"がいたんだけど　{n}はっしんして　いってしまった{n}\"グール\"に　おいつくには{n}このミサイルに　のって　いくしかない!{n}{n}{n}さあ!　　　　{n}このミサイルに　くっついてくれ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}You came... I've been waiting. \"Ghoul\" was here until just a moment ago, but it's taken off. The only way to catch up with \"Ghoul\" is to ride this missile!{p}Come on! Grab onto this missile!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -296,8 +296,8 @@
    "038BFA"
   ],
   "jp": "{fd:02}よし!　　{n}うちあげるぞ!!{n}{n}{n}ミサイルは　つぎつぎと　うちあげるから{n}がめんがいに　でないように{n}テンポよく　のりついで　のぼってくれ!{n}{n}がめんがいに　でると　アウトだぞ!!{n}{n}{n}{n}いいかい!?{n}\"グール\"には　オレを　せんのうした{n}ヤツがいる!!　　　　{n}{fd:01}きをつけろっ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}All right! Here goes the launch!!{p}I'll launch missiles one after another, so keep hopping up them in rhythm without going off-screen!{p}If you go off-screen, you're out!!{p}Got it!? The guy who brainwashed me is on \"Ghoul\"!! {fd:01}Watch out!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -308,8 +308,8 @@
    "038BFD"
   ],
   "jp": "{fd:04}わたしは　\"あすか　りょう\"　　　{n}これから　このワールドの　しはいしゃに{n}くんりんするものだ!!{n}{n}{fd:04}フッ・・・だえもんめ!　　　　{n}{fd:04}わたしのこうどうを\"よち\"したのか　{n}おまえたちのような　でしを　{n}よこすとはな・・・・{n}しかしながら　おまえたちが　{n}ここまでやるとは　おもってみなかったぞ!{n}{n}{n}だが・・・それもここまで　　　{n}おまえたちでは　{n}まるで　わたしの　あいてにはならん!{n}{n}なんなら　ためしてみてもいいぞっっっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}I am \"Ryo Asuka,\" the one who will reign as ruler of this World!!{p}{fd:04}Heh... Curse you, Daemon! So he \"foresaw\" my moves, did he, sending pupils like you...{p}Still, I never thought you'd make it this far!{p}But... this is where it ends. You are no match for me whatsoever!{p}If you like, go ahead and try meeeee!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -320,8 +320,8 @@
    "038C00"
   ],
   "jp": "{fd:04}めざわりだ　きえな!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}You're an eyesore. Get lost!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -332,8 +332,8 @@
    "038C03"
   ],
   "jp": "{fd:01}はははははははははははははははははははは{n}はははははははははははははははははははは{n}はははははははははははは・・・・・・・・{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:01}Hahahahahahahahahahahahaha hahahahahahahahahahahahaha hahahahahahahahahaha........{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -344,8 +344,8 @@
    "038C06"
   ],
   "jp": "{fd:04}だいじょうぶ?・・・・・・{f8:01}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Are you okay?......{f8:01}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -356,8 +356,8 @@
    "038C09"
   ],
   "jp": "{fd:04}やっぱり　ヤツをたおすことは　{n}むりだったのか・・・・・{n}{n}{n}ヤツは　あくまのつよさを　もっているから{n}もっとオレたちも　つよくならないと・・・{f8:00}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}So beating him really was impossible after all...{p}He's got the strength of a devil, so we've got to get stronger too...{f8:00}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -368,8 +368,8 @@
    "038C0C"
   ],
   "jp": "{fd:02}がんばって!　　　　　　　{n}{fd:04}せいしょうたいしゃは{n}つぎのワールドにあるわ!　　{n}{n}みちは　わたしが　あけといたから・・・　{n}でも　つぎのせかいにいくと　　{n}もどってくるのが　たいへんになるから{n}きをつけてね!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Hang in there! {fd:04}Seisho Shrine is in the next World!{p}I've opened the way for you... But once you go on to the next World, it'll be hard to come back, so be careful!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -380,8 +380,8 @@
    "038D65"
   ],
   "jp": "{fd:04}がけのうえには　どうくつがあって{n}キラキラひかっているの　{n}あやしいのよね{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}There's a cave up on the cliff, and something's glittering in there. Looks suspicious.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -392,8 +392,8 @@
    "038D68"
   ],
   "jp": "{fd:04}このごろ　つるぎさんとこの{n}グレートちゃんが　グレちゃってねー{n}{n}{n}{n}おみせのまえのみちを　みぎにすすむと{n}となりのワールドに　いけたんだけど　{n}グレートちゃんが{n}カギをかけちゃったのよぉー　　　{n}こまったもんだねー{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Lately Tetsuya Tsurugi's little Great has turned into a great big delinquent, y'know!{p}You used to be able to reach the next World by heading right on the road in front of the shop, but little Great went and locked it up! What a pain, honestly!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -404,8 +404,8 @@
    "038D6B"
   ],
   "jp": "{fd:04}\"ギャーグ\"は　むかし　かみさまが{n}ちじょうを　そうぞうしたときに　{n}いきものたちが　たのしく　しあわせに{n}いきていけるように　つくったらしいわ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}They say long ago, when the gods created the earth, they made the \"Gaaag\" so that living things could live happily and joyfully.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -416,8 +416,8 @@
    "038DA1"
   ],
   "jp": "{fd:04}さいきん　このまちでは　{n}おにが　たくさん　でて　こまっているんだ{n}むかしは　こんなに　いなかったのになぁ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Lately this town's been overrun with oni, and it's a real problem. There didn't used to be so many...{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -428,8 +428,8 @@
    "038DA4"
   ],
   "jp": "{fd:04}せいしょうたいしゃを{n}さがしているって?{n}{n}{n}あそこに　いこうってんなら　{n}やめときな!!　　　　{n}なぜって?・・・・おにが　でるからさっ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}You're looking for Seisho Shrine?{p}If you're thinking of going there, forget it!! Why? ...'Cause the oni come out there!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -440,8 +440,8 @@
    "038D98"
   ],
   "jp": "{fd:04}こんにちは!{n}わたしは　\"キューティーハニー\"{n}いいことを　おしえてあげようか{n}{n}あのね　{n}このまちの　どこかに　{n}やみいちが　あるらしいよ　　　　{n}どこに　あるかは　しらないけどね{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hi! I'm \"Cutie Honey.\" Want me to tell you something good?{p}Well, there's supposedly a black market somewhere in this town. Though I don't know where it is.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -452,8 +452,8 @@
    "038D9E"
   ],
   "jp": "{fd:04}このまえ　せいしょうたいしゃのうえに{n}\"グール\"っていう　メカが　{n}とんでいたなぁ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The other day, a machine called \"Ghoul\" was flying over Seisho Shrine.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -464,8 +464,8 @@
    "038D89"
   ],
   "jp": "{fd:04}このまちは　おにのまち!　　　　{n}おにに　まつわる　むかしばなしが　{n}たくさんあるんだ!!{n}{n}いちばん　ゆうめいな　むかしばなしは{n}かみさまが　みんなのこころに{n}すむ　おにを　おいだして{n}\"ギャーグ\"に　ふういんしたって{n}はなしなんだって!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}This is a town of oni! There are lots of old tales about oni!!{p}The most famous one is the story of how the gods drove out the oni living in everyone's hearts and sealed them in the \"Gaaag\"!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -476,8 +476,8 @@
    "038D8F"
   ],
   "jp": "{fd:04}このまちの　どっかに{n}\"みゆき\"が　つかまっている　　{n}かのじょは　じゅうような　じょうほうを　{n}にぎっているから　たすけてあげな!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}\"Miyuki\" is being held somewhere in this town. She's got important information, so go rescue her!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -488,8 +488,8 @@
    "038D95"
   ],
   "jp": "{fd:04}やあ　ぼくがいいことを　　{n}おしえてあげる!{n}{n}{n}ぼちでは　はかのうらが　みえない!!　{n}てきが　かくれているかもしれないよ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hey, I'll tell you something useful!{p}In the graveyard, you can't see behind the gravestones!! Enemies might be hiding there!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -500,8 +500,8 @@
    "038DD7"
   ],
   "jp": "{fd:04}きみは　はやいな　　{n}ぼくは　とても　かてないよ!{n}ぼくが　まけたから　いいものをあげる{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}You're fast! I can't beat you at all! Since I lost, I'll give you something nice.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -512,8 +512,8 @@
    "038DDA"
   ],
   "jp": "{fd:04}まだまだだね　　{n}それじゃ　ぼくには　かてないよ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Not good enough yet. You'll never beat me like that.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -524,8 +524,8 @@
    "038DD4"
   ],
   "jp": "{fd:04}きみは　はやいな　　{n}ばくは　かてないよ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}You're fast! I can't beat you!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -536,8 +536,8 @@
    "038D8C"
   ],
   "jp": "{fd:04}ぼくは　いま　{n}とざんかを　めざしているんだ!　　　　{n}{n}{n}なぜって?{n}それはね　おばあさんから　きいたんだけど{n}きたのほうにある　やまのうえに　{n}おしろが　あるらしいんだ{n}そこに　いくことができると　{n}かならず　ヒーローになれるって{n}いいつたえがあるんだ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Right now I'm aiming to become a mountain climber!{p}Why? Well, my grandma told me there's a castle on top of a mountain up north. There's a legend that if you can make it there, you'll become a hero for sure!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -548,8 +548,8 @@
    "038D9B"
   ],
   "jp": "{fd:04}となりのワールドには　{n}おんせんが　あるんだげんど　　{n}そごにある　\"いこいのやかた\"の{n}ソフィちゃんが　ええんだ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Over in the next World there's a hot spring, see, an' that Sophie gal at the \"House of Rest\" there, she's a real looker!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -560,8 +560,8 @@
    "038D92"
   ],
   "jp": "{fd:04}こんちはー!!{n}オレのなまえは　\"かぶと　こうじ\"{n}あんたたちのことは　うわさできいているよ{n}がんばってな!!{n}オレんちの　ろうかは　{n}やまみちのどうくつに　つながっているんだ{n}どうだい　いってみるかい?{yesno}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hiya!! My name's \"Koji Kabuto.\" I've heard all the rumors about you guys. Hang in there!!{p}The hallway at my place connects to a cave on the mountain path. How about it, wanna go take a look?{yesno}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -572,8 +572,8 @@
    "038DD1"
   ],
   "jp": "{fd:04}こんワールドから　まえんワールドに　{n}もどるには　どがんしたらよかか　{n}あんたら　しっとるか?　{n}{n}{n}オイどんは　しっとるよ!　{n}あんなぁ　ここんワールドの　どっかに{n}まえんワールドと　つながっとる　{n}うちんあるけん　　{n}{n}まえんワールドに　もどりたかぎった　{n}さがしたらよか!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}How d'ya get back from this here World to the last World? Y'all know?{p}Well, I know! See, somewheres in this World there's a house that's hooked up to the last World.{p}If y'all wanna go back to the last World, go on an' look for it!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -585,8 +585,8 @@
    "038DAA"
   ],
   "jp": "{fd:04}ケケケケケ・・・・・・{n}{fd:03}このひとじちを　たすけにきたのクァ{n}そのゆうき　ほめてやろうじゃないクァ!{n}{n}でも　オレを　たおすことは{n}できないのどあぁぁぁぁぁ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Kekekekeke...... {fd:03}So ya came to rescue this hostage, kwah? I'll give ya credit for that courage, kwah!{p}But ya'll never beat meeeeeee!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -597,8 +597,8 @@
    "038C12"
   ],
   "jp": "{fd:04}たすけてくれて　ありがとう!{n}{n}{n}{n}ブロッケンはくしゃくが　{n}せいしょうたいしゃの　もんばんである{n}\"しゅてんどうじ\"くんを　{n}せんのうしたことによって　{n}ふういんされていた　おにたちが　{n}げかいへと　おりてきて　しまったの!　　{n}{n}{n}\"しゅてんどうじ\"くんを　たすけないと　{n}このせかいの　おには　いなくならないわ!{n}かれを　たすけてあげて!!{n}{n}それと　このカギを　あげるわ　　{n}これで　せいしょうたいしゃのもんを　{n}あけることが　できるわ!!{n}{n}{fd:01}\"せいしょう　たいしゃ\"のカギを{n}てにいれた{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Thank you for saving me!{p}Count Brocken brainwashed \"Shuten-doji,\" the gatekeeper of Seisho Shrine, and so the oni that were sealed away have come down to the mortal world!{p}Unless you save \"Shuten-doji,\" the oni of this world will never go away! Please save him!!{p}Also, I'll give you this key. With it, you can open the gate of Seisho Shrine!!{p}{fd:01}Got the \"Seisho Shrine\" key.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -609,8 +609,8 @@
    "038DAD"
   ],
   "jp": "{fd:04}おいらは　まつりで　{n}\"おにのまとあて\"の　でみせを　{n}やっているんだけど{n}{n}しょうばいどうぐの　おにのまとを{n}ぬすまれてしまったんだ　　　{n}さがしてくれないかなぁ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}I run an \"Oni Target Toss\" stall at the festival,{p}but somebody stole the oni targets I need for business. Could you find them for me?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -621,8 +621,8 @@
    "038C15"
   ],
   "jp": "{fd:04}きましたね　あくのにんげんが・・・{n}あなたたちを　ここからさきに　{n}いかせるわけには　いきません!!{n}{n}それが　わたしの　{n}もんばんとしての　しめいだからっっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}So you have come, evil humans... I cannot let you go one step further!!{p}For that is my duty as the gatekeeper!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -633,8 +633,8 @@
    "038C18"
   ],
   "jp": "{fd:06}ううっ・・・な・・{fd:04}なんということだ{n}{fd:06}こ・・{fd:04}このぼくが　あくのてしたとして{n}はたらいていたなんて・・・・・・・・・{n}{n}ギャーグは・・・・{n}ギャーグは　もう・・ここには　ないんだ!{n}\"あすか　りょう\"と　なのるおとこが{n}もっていってしまった{fd:06}・・・・・{n}{fd:02}そうだ!　{fd:04}せんのうされるまえに{n}やつは　しろに　もっていくと{n}いっていたな・・・・・・{n}{n}すみません　こんなこと　{n}なんのやくにも　たちませんね　　{n}しろが　どこにあるのか　{n}わからないのに・・・・・{n}!?　　　　{n}そ・・・それでも　　{n}きみたちは　まだ　{n}たたかうつもりなのですか?{yesno}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:06}Ugh... Wh...{fd:04}what have I done? {fd:06}T-to think...{fd:04}that I was working as a servant of evil.........{p}The Gaaag... The Gaaag is... not here anymore! A man calling himself \"Ryo Asuka\" took it away{fd:06}.....{p}{fd:02}That's right! {fd:04}Before I was brainwashed, he said he was taking it to the castle......{p}I'm sorry. This is no help at all, since I don't even know where the castle is.....{p}!? Y-you... still intend to fight, even so?{yesno}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -645,8 +645,8 @@
    "038C1B"
   ],
   "jp": "{fd:04}そうですか・・・・・・・{n}このさきには　きょうりょくなてきが{n}まちかまえています{n}{n}きをつけていってください!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}I see....... Powerful enemies lie in wait ahead.{p}Please be careful!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -657,8 +657,8 @@
    "038C1E"
   ],
   "jp": "{fd:04}おめぇらは　まだ　たたかうんだよ!!{n}がんばって　エンディングを　みるんだね!{yesno}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Ya're still gonna fight, ain'tcha!! Do yer best an' see the ending!{yesno}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -669,8 +669,8 @@
    "038C21"
   ],
   "jp": "{fd:03}くぁ　くぁ　くぁ　くぁ　くぁっ!!{n}よぉぉぉく　きたなぁっ!!{n}{n}{n}しかぁぁぁぁしっ!!それもここまで!{n}はたして　オレさまの　こうげきに{n}たえることができるかなっ!{n}くぁ　くぁ　くぁ　くぁっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Kwa kwa kwa kwa kwah!! Glad ya made it heeeere!!{p}Buuuuuut!! This is as far as you go! Can ya withstand my attacks, I wonder! Kwa kwa kwa kwah!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -681,8 +681,8 @@
    "038C24"
   ],
   "jp": "{fd:04}やりましたね!!{f8:01}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}You did it!!{f8:01}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -693,8 +693,8 @@
    "038C27"
   ],
   "jp": "{fd:04}いま　このもんは　つぎのワールドに{n}つながったわ!　　{n}もういちど　もんに　はいれば{n}つぎのまちに　いくことができるけど{fd:06}・・・{n}{fd:04}ここからさきは・・・・・{n}もっと　つらい　たびになるわ　　{n}できることなら　いかないでほしいけど{n}{n}がんばってね・・・・・・・・{f8:00}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The gate is now connected to the next World! Enter the gate once more and you can go on to the next town, but{fd:06}... {fd:04}from here on... the journey will be even harder. If I could, I'd ask you not to go, but...{p}Good luck........{f8:00}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -705,8 +705,8 @@
    "038C2A"
   ],
   "jp": "{fd:04}がんばってください!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Please do your best!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -717,8 +717,8 @@
    "038D71"
   ],
   "jp": "{fd:04}ぼちには　おにの　かおをした{n}せきぞうが　つるされているわ!{n}{n}{n}{n}あれは　おおむかしに　{n}わるさをしていた　ふろうふしのおにを{n}かみさまが　いしに　　{n}ふういんしてしまったそうよ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}In the graveyard, there's a stone statue with an oni's face hanging up!{p}They say that long, long ago, a god sealed an immortal oni who was causing trouble inside that stone.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -729,8 +729,8 @@
    "038D74"
   ],
   "jp": "{fd:05}てきキャラの　\"こおに\"は　{n}カミナリで　こうげきするわ　　　{n}あの　こうげきには　ちゅういして!{n}{n}{n}あっ!　そういえば・・・・　{n}\"きくのすけちゃん\"には　あったの?{n}あなたたちのことを　　{n}さがしていたわよ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:05}The enemy \"Little Oni\" attack with lightning. Watch out for that attack!{p}Oh! That reminds me... Have you met \"Kikunosuke\" yet? She was looking for you!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -741,8 +741,8 @@
    "038D77"
   ],
   "jp": "{fd:05}わたしは　みずしらずの　ひととは{n}しゃべらないことに　してるの・・・・{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:05}I make it a rule not to talk to strangers....{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -753,8 +753,8 @@
    "038DC2"
   ],
   "jp": "{fd:04}よう!!　　{n}このワールドには　オレのなかまが　{n}さんにんいる!!　{n}さがして　あったほうがいいぜ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hey!! I've got three buddies in this World!! You'd better go find 'em and meet 'em!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -765,8 +765,8 @@
    "038DC5"
   ],
   "jp": "{fd:03}ああーら　おにいさんたち!　{n}あそんでいかない?　　{n}サービスしとくわよ♥{n}{n}{n}{fd:01}ギャーーーーーーーーーーーーーーーッ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Ooh, hello there, boys! Wanna have some fun? I'll give you the special treatment♥{p}{fd:01}Gyaaaaaaaaaaaah!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -777,8 +777,8 @@
    "038DC8"
   ],
   "jp": "{fd:04}このせかいに　つたわる　いいつたえにゃ{n}\"くろうしたヤツは　むくわれる!\"って{n}いきな　いいつたえが　あるぜぇぃ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}There's a mighty stylish old sayin' handed down in this world: \"Them that toil get their reward!\" Ain't that swell!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -789,8 +789,8 @@
    "038DCB"
   ],
   "jp": "{fd:04}うちで　\"おとみさん\"っていう　{n}おんなのひとが　はたらいていたんだけど　{n}ゆくえふめいに　なっているんだ!　{n}いったい　どうしたんだろう・・・・・・{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}A woman named \"Otomi\" used to work at our place, but she's gone missing! What on earth could have happened......{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -801,8 +801,8 @@
    "038DB0"
   ],
   "jp": "{fd:04}どうくつのなかは　{n}ようがんで　いっぱい{n}{n}{n}{n}おまけに　カベからは　　{n}ひが　ふきだしてて　{n}とても　きけんな　ばしょらしいわ!!{n}{n}{n}あと　どうくつのなかの　めいろは　{n}とおりみちが　4つぐらいあって　{n}とおったみちによって　{n}ボスのつよさが　かわるそうよ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The inside of the cave is full of lava,{p}and on top of that, fire spurts out of the walls. They say it's a really dangerous place!!{p}Also, the maze in the cave has about 4 paths, and they say the boss's strength changes depending on which path you take!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -813,8 +813,8 @@
    "038DB3"
   ],
   "jp": "{fd:04}どうくつの　なかにも　{n}おみせが　あるらしいの　　　{n}おかげで　このあたりの　おみせは　{n}しょうばい　あがったりだわ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Apparently there's a shop even inside the cave. Thanks to that, business for the shops around here has dried right up!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -825,8 +825,8 @@
    "038DB6"
   ],
   "jp": "{fd:04}どうくつのなかには　ふしぎなちからを{n}もったひとが　いるらしいわ{n}{n}{n}{n}そのひとは　　{n}あまり　ひととあわないように　　{n}みえるところには　いないらしいわ　　{n}へんよねぇー!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}They say there's someone inside the cave with mysterious powers.{p}That person doesn't like meeting people much, so apparently they stay out of sight. Weird, huh!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -837,8 +837,8 @@
    "038C2D"
   ],
   "jp": "{fd:04}こうはいの　\"まゆみちゃん\"が　　{n}どうくつの　なかから　でてきた　{n}かめんをかぶったヤツに　{n}さらわれて　しまったわ!{n}どうしたら　いいのかしら・・・・・?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}My underclassman, \"Mayumi,\" was kidnapped by a masked guy who came out of the cave! What should I do.....?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -849,8 +849,8 @@
    "038C30"
   ],
   "jp": "{fd:04}ジャ　ジャ　ジャ　ジャァァン!!{n}{fd:03}むあぁた　あっったなぁぁぁっ!!{n}こんどこそ　オレさまが　かつずぇぇぇ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Ja ja ja jaaaan!! {fd:03}We meeeet agaaaain!! This time I'm gonna wiiiin!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -861,8 +861,8 @@
    "038C33"
   ],
   "jp": "{fd:04}たすかりました　ありがとう!　　　{n}でも　{n}まだ　おねえさまが　つかまっているんです{n}{n}どうか　おねえさまも　{n}たすけてやってください　おねがいします!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Thank you for saving me! But my big sister is still being held captive.{p}Please, save my sister too, I'm begging you!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -873,8 +873,8 @@
    "038C36"
   ],
   "jp": "{fd:04}ほっ　ほっ　ほっ　ほっ　ほっ!　　{n}{fd:03}よくも　こんなところまで　きたわね{n}{n}{n}でも　　　{n}まだ　わたしは　たたかってあげません!{n}わたしの　しもべと　たたかって　{n}かったら　たたかってあげましょう!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Oh ho ho ho ho! {fd:03}How dare you come all this way!{p}But I shan't fight you just yet! Fight my servant, and if you win, then I shall fight you!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -885,8 +885,8 @@
    "038C39"
   ],
   "jp": "{fd:02}どこの　だれかは　しらないが　{n}ムチムチプリンは　しっている!　　{n}{n}{n}あくのてしため!!　　{n}この　けっこうかめんが　{n}せいばいしてやる!!!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Who I am, nobody knows... but everybody knows this bouncy booty!{p}Minion of evil!! I, Kekko Kamen, shall punish you!!!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -897,8 +897,8 @@
    "038C3C"
   ],
   "jp": "{fd:04}ほっ　ほっ　ほっ　ほっ　ほっ!{n}{fd:03}なかなかやるじゃあ　あありませんか!!{n}プチプチプッチンですよっっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Oh ho ho ho ho! {fd:03}My, aren't you gooood!! How positively poppity-pop-POP!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -909,8 +909,8 @@
    "038C3F"
   ],
   "jp": "{fd:06}わたしは・・・・いったい・・・・・{n}{fd:02}そうか　{n}{fd:04}\"まゆみくん\"を　たすけにきて・・・・{n}{n}てきの　わなにはまって{n}せんのうされたんだわ・・・・・・・・・{n}{fd:02}そうだ!　{fd:04}おれいに　{n}いいことを　おしえてあげるわ{n}このつぎは　ボスがいるへやに　{n}いくはずだから　{n}おみせで　かいものしておくべきよ{n}じゃあ!　こううんを♥{f8:01}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:06}What... happened to me..... {fd:02}I see... {fd:04}I came to rescue \"Mayumi\"...{p}and fell into the enemy's trap and got brainwashed...... {fd:02}Oh, right! {fd:04}As thanks, here's a tip.{p}Next you'll be heading for the boss's room, so you'd better do some shopping first. Well then! Good luck♥{f8:01}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -921,8 +921,8 @@
    "038C42"
   ],
   "jp": "{fd:03}ギャーーーーーース!　　　　{n}{fd:02}ギャ　ギャ　ギャアーーーーーーース!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Gyaaaaaaaas! {fd:02}Gya gya gyaaaaaaaaaaas!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -933,8 +933,8 @@
    "038DB9"
   ],
   "jp": "{fd:04}このせかいには　せんざいのうりょくを{n}かいほうするちからを　もつひとが　{n}いるらしいわ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}They say there's someone in this world with the power to unlock hidden potential!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -945,8 +945,8 @@
    "038DBC"
   ],
   "jp": "{fd:04}アルプスさんみゃくの　うえにある　{n}おしろは　\"わらいのおしろ\"!!{n}しってたかい?{n}{n}{n}もともとは　かみさまが　　{n}すんでた　ばしょなんヂャ!!{n}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The castle up on top of the Alps is the \"Castle of Laughter\"!! Didja know that?{p}Way back, it was the place where a god lived, y'see!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -957,8 +957,8 @@
    "038DBF"
   ],
   "jp": "{fd:04}じょうげする　ようがんには{n}きをつけてね!　　　{n}あと　ようがんで　かくれたドアが{n}あるから　　{n}チェックしたほうが　いいわよ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Watch out for the lava that rises and falls! Also, there are doors hidden by the lava, so you'd better check for them!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -969,8 +969,8 @@
    "038C45"
   ],
   "jp": "{fd:04}ありがとう・・・・・・　　　　{n}わたしが　つかまったことによって{n}おねえさまにまで　めいわくを{n}かけてしまったわ・・・・・・{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Thank you...... Because I got caught, I even caused trouble for my big sister......{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -981,8 +981,8 @@
    "038DCE"
   ],
   "jp": "{fd:04}やあ　{n}ぼくは　\"えんまだいおう\"の　むすこ{n}\"ドロロン　えんま\"{n}よろしくな!{n}きみは　かなり　きたえているけど　{n}まだ　すべてのちからを　{n}だしきっていないね!{n}{n}ぼくが　そのちからを　{n}かいほうしてあげよう!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Hey! I'm \"Dororon Enma,\" son of \"Great King Enma.\" Nice to meet you!{p}You've trained pretty hard, but you still haven't drawn out all of your power!{p}Let me unlock that power for you!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -993,8 +993,8 @@
    "038DF5"
   ],
   "jp": "{fd:01}からだのそこから　ちからがあふれだして{n}ぜんしんを　オーラが　つつみ　{n}HPのマックスが　あがったっっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:01}Power welled up from deep within, an aura wrapped around the whole body, and max HP went up!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1005,8 +1005,8 @@
    "038C48"
   ],
   "jp": "{fd:03}あーら　いらっしゃい!!　　　{n}おにいさんたち　わかいわね!!{n}ちょっとおいしそう♥　ジュルッ!!{n}{n}でも　ちょっと　よごれているみたいね{n}わたしが　あらってあげるわ♥{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Ooh, welcome!! You boys are so young!! You look kinda tasty♥ Slurp!!{p}But you look a little dirty. Let me give you a nice wash♥{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1017,8 +1017,8 @@
    "038C4B"
   ],
   "jp": "{fd:04}ふたりを　たすけてくれて　ありがとう{n}{n}{n}{n}これで　このワールドも　{n}せいじょうに　なるでしょう{n}{n}{n}あくまのけしん\"あすか　りょう\"は　{n}\"わらいのおしろ\"に　いるはずです!!{n}{n}{n}\"わらいのおしろ\"に　いくには　{n}\"アルプスさんみゃく\"の　どこかに{n}いりぐちが　あると　{n}いいつたえられています{n}その　いどは　{n}\"アルプスさんみゃく\"と　つながりました{n}これで　いくことが　できるはずです!{n}{n}あと　すこしです!　　　　{n}がんばってください!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Thank you for saving them both.{p}Now this World should go back to normal, too.{p}The devil incarnate, \"Ryo Asuka,\" should be in the \"Castle of Laughter\"!!{p}Legend says the entrance to the \"Castle of Laughter\" lies somewhere in the \"Alps.\" That well now leads to the \"Alps,\" so you can get there!{p}Just a little further! Keep it up!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1029,8 +1029,8 @@
    "038CAE"
   ],
   "jp": "{fd:04}わたしはいったい・・・・・・{n}そうか　まゆみくんを　たすけにきて・・・{n}てきのわなに　はまって　{n}せんのうされたんだわ・・・・・・・・　{n}{fd:03}ありがとう!!　　{n}これで　わたしたちは　{n}じゆうになることが　できます{n}{n}さあ　まゆみくんも　{n}このひとたちに　おれいをいわなきゃ{f8:01}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}What happened to me...... I see, I came to rescue Mayumi... then fell into the enemy's trap and got brainwashed........ {fd:03}Thank you!! Thanks to you, we're finally free.{p}Come on, Mayumi, you should thank these people too.{f8:01}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1041,8 +1041,8 @@
    "038DE6"
   ],
   "jp": "{fd:04}よお!　　{n}ついにここまできたんだな!　　{n}おれは　きみたちを　そんけいしてきたぜ　{n}あと　すこしだ!　がんばれ!!{n}ここのワールドにも　おれたちの　{n}なかまが　たくさん　いる!　　{n}できることなら　{n}みんなにあったほうがいいぜ!{n}じゅうような　じょうほうが　{n}あるはずだよ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Yo! You finally made it this far! I've always looked up to you guys. Just a little further! Hang in there!!{p}Lots of our buddies are in this World too! If you can, you'd better meet 'em all! They should have important info!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1053,8 +1053,8 @@
    "038DE9"
   ],
   "jp": "{fd:04}このワールドには　\"てっかめん\"はいない{n}だから　\"こぶん\"を　ふやすことは{n}できないんだ!!{n}{n}もし　\"こぶん\"が　ほしくなったら{n}まえのワールドに　もどって　　{n}\"てっかめん\"を　たおすしかないぜ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}There's no \"Iron Mask\" in this World, so you can't get a new \"henchman\" here!!{p}If you want a \"henchman,\" you'll have to go back to the last World and beat \"Iron Mask\"!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1065,8 +1065,8 @@
    "038CAB"
   ],
   "jp": "{fd:04}このワールドは　とおるルートによって{n}なんいどが　かわるように　なっているわ{n}{n}{n}つまり!　　　　{n}やまの　ひがしがわ　みなみがわ　にしがわ{n}きたがわに　わかれていて{n}{n}たいようの　ひかりが　あたらないところは{n}じめんや　カベが　こおっているのよ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The difficulty of this World changes depending on the route you take.{p}In other words! The mountain is split into an east side, a south side, a west side and a north side,{p}and wherever the sunlight doesn't reach, the ground and walls are frozen solid!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1077,8 +1077,8 @@
    "038DEC"
   ],
   "jp": "{fd:04}\"ギャーグ\"は　もともと　　　{n}かみさまの　すんでいた　{n}\"わらいのおしろ\"に　あったもので　{n}かみさまの　たからものを　いれる　　{n}はこだったらしいわ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The \"Gaaag\" was originally kept in the \"Castle of Laughter,\" where a god lived, and they say it was a box for holding the god's treasures!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1089,8 +1089,8 @@
    "038DEF"
   ],
   "jp": "{fd:04}サタンってひとは　\"ギャグ\"とか{n}\"おわらい\"が　とてもきらいだって　{n}ゆうめいな　はなしだわ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}It's a famous story that this Satan guy really hates \"gags\" and \"comedy\"!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1101,8 +1101,8 @@
    "038DF2"
   ],
   "jp": "{fd:04}このやまを　のぼるのは　{n}たいりょくしょうぶ!!　　　{n}このみせで　たいりょくをつけておけば{n}きっと　のぼることが　できるわ　　{n}がんばって♥{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Climbing this mountain is a test of stamina!! If you build up your stamina at this shop, you'll surely be able to make the climb. Good luck♥{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1113,8 +1113,8 @@
    "038C4E"
   ],
   "jp": "{fd:03}よくも　このまえは　やってくれたなぁ!{n}こんどは　このまえみたいには　{n}いかないからなぁ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}You've got some nerve, after what you did to me last time! This time things won't go the way they did before!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1125,8 +1125,8 @@
    "038C51"
   ],
   "jp": "{fd:04}あとすこしよ　がんばってね!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Just a little further! Hang in there!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1137,8 +1137,8 @@
    "038C54"
   ],
   "jp": "{fd:03}オレは　\"グレンダイザー!!\"{n}サタンさまの{n}ちゅうじつな　シモベである!!{n}{n}キサマたちに　なんの　うらみもないが　{n}サタンさまの　めい　により　{n}これより　キサマたちの　{n}しょけいをおこなう!{n}いざ!!　いざ!!　いざっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}I am \"Grendizer!!\" Satan's loyal servant!!{p}I hold no grudge against you, but by Satan's command, I shall now carry out your execution! En garde!! En garde!! En gaaarde!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1149,8 +1149,8 @@
    "038C57"
   ],
   "jp": "{fd:02}ハッ!!　　　　{n}{fd:03}せっしゃは　なにをしていたのだ!!{n}{n}{n}{fd:02}そうだ!!　　　　{n}{fd:03}せっしゃは　サタンに　せんのうされ　{n}そなたたちを　たおすように　{n}めいれいを　うけたのだった{fd:06}・・・・・{n}{fd:03}せんのうされて　いたとはいえ{n}{fd:02}めんぼくない!　　　　{n}{fd:03}そのかわりにと　いうわけではないが{n}この　ドアのカギを　さしあげよう　　　{n}あかないドアを　あけることができるはず!{n}{n}{n}{n}そういえば{fd:06}・・・・・{n}{fd:03}まだ　せんのうされて　いるものが　{n}おったようだが　かれらは　てごわいぞ!!{n}ちゅういしていかれよ!!{n}{fd:01}{n}ドアのカギを　てにいれた{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Huh!!{fd:03} What have I been doing!!{p}{fd:02}That's right!!{fd:03} I was brainwashed by Satan and ordered to defeat you{fd:06}...{p}{fd:03}Brainwashed or not, {fd:02}I am deeply ashamed!{fd:03} It does not make up for it, but allow me to give you this door key. It should open the doors that will not open!{p}Come to think of it{fd:06}...{fd:03} there seem to be others still brainwashed. They are tough foes!! Take care!!{p}{fd:01}Got the door key.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1161,8 +1161,8 @@
    "038C5A"
   ],
   "jp": "{fd:04}\"わらいのおしろ\"へ　いくには{n}こぶんが　ひつようになるから　{n}きをつけて!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}To get to the \"Castle of Laughter\" you'll need a henchman, so watch out!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1173,8 +1173,8 @@
    "038C5D"
   ],
   "jp": "{fd:03}くあっ!くあっ!くあっ!!　　　{n}むあっていたずぉぉぉぉぉぉぉぉぉっっっ!{n}{n}{n}このまえのうらみを　どうやって　はらすか{n}ずっと　かんがえていたんどぁぁぁぁぁ!!{n}こんどは　まけないからなぁぁぁぁぁぁ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Kwah! Kwah! Kwahh!! I've been waaaaaaaiting for youuuuuuuuu!{p}I've been thinking all along how to pay you back for last tiiiiiime!! This time I won't loooooose!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1185,8 +1185,8 @@
    "038C60"
   ],
   "jp": "{fd:04}\"あすか　りょう\"は　ギャグが{n}とても　きらいらしいわ!!　{n}それで\"ギャーグ\"を　ぬすんだのかしら?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}It seems \"Ryo Asuka\" really hates gags!! Is that why he stole the \"Gaaag\"?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1197,8 +1197,8 @@
    "038C63"
   ],
   "jp": "{fd:03}まっていたぞ!　　{n}おまえたちの　おかげで　{n}オレさまの　しんようは　ガタおちだ!{n}{n}こんど　しっぱいしたら　{n}サタンさまに　ころされてしまう!!　　{n}もう　ようしゃ　しないぞっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}I've been waiting for you! Thanks to you, my reputation has gone right down the drain!{p}If I fail again, Satan will kill me!! No more mercy!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1209,8 +1209,8 @@
    "038C66"
   ],
   "jp": "{fd:03}いらっしゃい!!まっていたわよ♥　{n}あなたたちの　おかげで　{n}わたしは　よっきゅうふまんが　{n}たまって!　たまって!　ジュルッ♥{n}こんどは　だまって　{n}わたしに　たべられちゃいな!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Welcome!! I've been waiting for you♥ Thanks to you, I'm so pent-up! So pent-up! Slurp♥{p}This time, just keep quiet and let me eat you up!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1221,8 +1221,8 @@
    "038C69"
   ],
   "jp": "{fd:02}かっ　かっ　かっ　かっ　かっ!!{n}{fd:01}まけないために　からだを　{n}3たい　よういしたぞ!!　　　{n}これで　きさまたちも　おわりだっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Kah kah kah kah kah!!{fd:01} So I wouldn't lose, I got myself three bodies!! Now you're finished!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1233,8 +1233,8 @@
    "038C6C"
   ],
   "jp": "{fd:05}おぉぉぉぉぉぉぉぉぉぉぉぉぉぉん!!{n}{fd:03}オォォレェェさぁまぁはぁ　ゼェェノォォン{n}サァタァンさぁまぁにぃ　つぅかぁえぇるぅ{n}だぁいぃ1のぉ　こぉぶぅんだぁぁ{n}しょぉぉぉぶぅぅぅだぁぁぁぁっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:05}Ooooooooooooooohn!!{fd:03} Iiii aaam Zeeenooon, nuuumber ooone henchmaaan of Saaataaan! Fiiiiight!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1245,8 +1245,8 @@
    "038C6F"
   ],
   "jp": "{fd:04}ほっ　ほっ　ほっ　ほっ　ほっ!{n}{fd:02}ふたたび{n}おしおきを　あたえるために{n}わたしは　やってきましたよ!{n}うまれかわった　わたしに{n}かつことが　できるかしら!?{n}{fd:04}ほっ　ほっ　ほっ　ほっ　ほっ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Ho ho ho ho ho!{fd:02} I have come once again to give you your punishment! Can you beat me now that I've been reborn!?{fd:04} Ho ho ho ho ho!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1257,8 +1257,8 @@
    "038C72"
   ],
   "jp": "{fd:04}あいたかった{fd:06}・・・・・・{n}{fd:04}もう　あえないんじゃないかと{fd:06}・・・・{n}{fd:04}あなたに　わたしのきもちを　あげる{n}{n}つかれたら{n}いつでも　わたしのところへきて!{n}あなたの　ちからになるわ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}I missed you so{fd:06}...{fd:04} I thought I might never see you again{fd:06}...{fd:04} Let me give you my heart.{p}Whenever you're tired, come to me! I'll lend you my strength!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1269,8 +1269,8 @@
    "038C75"
   ],
   "jp": "{fd:01}おほほほほほほほほほほほほっ!!{n}{fd:03}あたちは　しゅうねんぶかいのよ{n}あたちが　うけたキズは{n}ばいにして　かえしてあげるわ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:01}Oh ho ho ho ho ho ho ho ho ho ho!!{fd:03} I hold grudges, darling! Every wound I've taken, I'll pay back double!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1281,8 +1281,8 @@
    "038C78"
   ],
   "jp": "{fd:04}この　たたかいも　{n}あとすこしで　おわるはず　　{n}がんばってください!{f8:01}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}This battle should be over soon. Please hang in there!{f8:01}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1293,8 +1293,8 @@
    "038C7B"
   ],
   "jp": "{fd:04}かならず　もどってきてください!!{n}\"まゆみ\"は　おにいさまたちの　{n}ぶじを　いのっています!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Please come back, no matter what!! \"Mayumi\" is praying you'll be safe, big brothers!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1305,8 +1305,8 @@
    "038C7E"
   ],
   "jp": "{fd:03}オレたちの　{n}さんみ　いったい　こうげきは　{n}せかい　いちぃぃぃぃぃぃぃ!!!!{n}{n}おまえたちに　この　こうげきが　{n}かわせるかなぁ!?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Our three-in-one attack is number one in the wooooooorld!!!!{p}Think you can dodge this attack!?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1317,8 +1317,8 @@
    "038C81"
   ],
   "jp": "{fd:02}・・・・オレたちを　かいほうしてくれて{n}ありがとう!!{n}{n}{n}これで　もう{n}あくじを　はたらかなくて　すむよ{n}{n}{n}{fd:03}このさきは　このワールドの{n}おおボスが　いる　へやだ!!{n}きをつけていけ!{n}{n}ヤツの　こおりこうげきには{n}ちゅうい　するんだぞ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}...Thank you for freeing us!!{p}Now we don't have to do bad things anymore.{p}{fd:03}Up ahead is the room where this World's big boss is!! Be careful!{p}Watch out for his ice attacks!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1329,8 +1329,8 @@
    "038C84"
   ],
   "jp": "{fd:02}シャク!シャク!シャク!シャク!!{n}{fd:03}オレの　つくったものは{n}つめたくて　おいしいぞ!!{n}たべてみるか?{yesno}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Crunch! Crunch! Crunch! Crunch!!{fd:03} The stuff I make is cold and tasty!! Wanna try some?{yesno}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1341,8 +1341,8 @@
    "038C87"
   ],
   "jp": "{fd:03}よし!　たべるんだな!!{n}おなか　こわしても　しらないぞ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}All right! You're gonna eat it!! Don't blame me if you get a stomachache!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1353,8 +1353,8 @@
    "038C8A"
   ],
   "jp": "{fd:03}そんなに　えんりょするなよ!!{n}たべさせたくって{n}だれか　くるのを　まっていたんだぞ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Don't be so shy!! I've been waiting for someone to come by so I could feed them!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1365,8 +1365,8 @@
    "038C8D"
   ],
   "jp": "{fd:02}とうとう　たおしたのね!　　{n}あなたたちは　やってくれると　{n}おもっていたわ{n}{n}あとは　この　にじのうえにある　{n}\"わらいのおしろ\"だけよ!!　　　{n}{n}{n}うえに　いくには　{n}わたしが　よういした　ミサイルに{n}のって　いくしかないわ!!　　　{n}やりかたは　わかるでしょ!?{n}ガンバって!　{n}わたしも　おうえんしているわ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}You finally beat him! I just knew you could do it.{p}All that's left is the \"Castle of Laughter\" on top of this rainbow!!{p}The only way up is to ride the missile I prepared!! You know how it works, right!? Go for it! I'm cheering for you too!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1375,8 +1375,8 @@
   "len": 316,
   "slots": [],
   "jp": "{fd:04}こおっている\"じめん\"や\"かべ\"は　　{n}すべって　あるきにくいから　　{n}ちゅういしたほうがいい{n}{n}でも{fd:09}　{fd:04}きいたはなしによると　　{n}なにか　アイテムをつかうことによって{n}すべらなくすることが　できるそうだ{fd:04}とうとう　たおしたのね!　　{n}あなたたちは　やってくれると　{n}おもっていたわ{n}{n}あとは　この　にじのうえにある　{n}\"わらいのおしろ\"だけよ!!　　　{n}{n}{n}でも　あなたたちは　こぶんを　{n}もっていないから　{n}つぎへは　いけないわ!!{n}{n}まえの　ワールドにもどって　{n}こぶんを　つれてきて　{n}{n}{n}そうしたら　{n}つぎのワールド　\"わらいのおしろ\"に　{n}いくことが　できるわよ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Frozen \"ground\" and \"walls\" are slippery and hard to walk on, so you'd better be careful.{p}But{fd:09} {fd:04}from what I've heard, you can stop slipping by using some item.{p}{fd:04}You finally beat him! I just knew you could do it.{p}All that's left is the \"Castle of Laughter\" on top of this rainbow!!{p}But you don't have a henchman, so you can't go on!!{p}Go back to a previous World and bring a henchman.{p}Then you'll be able to go to the next World, the \"Castle of Laughter\"!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1387,8 +1387,8 @@
    "038C90"
   ],
   "jp": "{fd:02}よくきたな!!　　　　{n}{fd:03}まえに　あったときより{n}かなり　つよくなったようだな{n}{n}その　じしんのある{n}かおを　みればよくわかるゾ!{n}{n}{n}だが　このわたしに　{n}かつことが　できるかなっ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}So you came!!{fd:03} You seem to have gotten a lot stronger since we last met.{p}I can tell just by looking at that confident face of yours!{p}But let's see if you can beat ME!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1399,8 +1399,8 @@
    "038C93"
   ],
   "jp": "{fd:02}くっ{fd:06}・・・{fd:04}なかなかやるな{fd:06}・・・・{n}{fd:02}しかし　{fd:04}このすがたは　かりのすがた{n}{n}{n}ほんとうの　すがたに　もどれば　{n}きさまらなど　あかごどうぜん!!　　{n}みせてやろう　{n}わたしの　ほんとうの　すがた!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Ngh{fd:06}...{fd:04} Not bad{fd:06}...{fd:02} But {fd:04}this form is only temporary.{p}Once I return to my true form, you'll be no more than babies!! Behold, my true form!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1411,8 +1411,8 @@
    "038C96"
   ],
   "jp": "{fd:02}はははははははははははは!{fd:04}　みたか!!　{n}{fd:04}これが　ほんとうの　すがただ!!　{n}きさまたちが　たばになって　かかっても　{n}わたしに　かつことは　できないだろう!{fd:08}　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Hahahahahahahahahaha!{fd:04} Behold!! This is my true form!! Even if you all gang up on me, you'll never beat me!{fd:08} {end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1423,8 +1423,8 @@
    "038C99"
   ],
   "jp": "{fd:02}ん!?{fd:08}　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Hm!?{fd:08} {end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1435,8 +1435,8 @@
    "038C9C"
   ],
   "jp": "{fd:02}なんじゃこりゃ!!??{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}What the heck is this!!??{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1447,8 +1447,8 @@
    "038C9F"
   ],
   "jp": "{fd:02}どっしぇーーーっ!!　　　　{n}{fd:06}ロ・・・{fd:04}ロムの　ようりょうが　　{n}たりましぇーーーーーーーーーん!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Yikeeeeees!!{fd:06} R...{fd:04}ROM capacity ish not enouuuuuuuuugh!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1459,8 +1459,8 @@
    "038CA2"
   ],
   "jp": "{fd:01}おやぶーーーーーん!!　　　　{n}{fd:04}プログラムの　ロムを　ぬいときましたっ!{n}{n}{n}{fd:02}な!{fd:06}・・{fd:02}なに!?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:01}Bosssssssss!!{fd:04} I pulled out the program ROM!{p}{fd:02}Wh-{fd:06}...{fd:02}What!?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1471,8 +1471,8 @@
    "038CA5"
   ],
   "jp": "{fd:04}てめ{fd:08}・・・{fd:04}こ・ら{fd:08}・・{fd:04}お・・い{fd:08}・・・{n}・{fd:04}は・やく・{fd:08}ロ・・ムを{fd:04}・・さ・し{fd:04}てこい!{n}{fd:09}　　　　　　　　　　　　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}You{fd:08}...{fd:04}h.e.y{fd:08}...{fd:04}o..i{fd:08}... .{fd:04}h.ur.ry.{fd:08}pu..t th.e R..OM{fd:04}..b.a.ck{fd:04} in!{fd:09} {end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1483,8 +1483,8 @@
    "038CA8"
   ],
   "jp": "{fd:06}・・・{fd:04}わたしは　ギャグが　{n}どうしても　スキに　なれなかった{n}　　　{n}{n}{fd:04}だから　ギャグのこんげんである　{n}\"ギャーグ\"を　なくしてしまえば{n}このワールドから　ギャグが　なくなると　{n}おもったんだ　　　{n}{fd:04}しかし　ほんとうは　わかっていた　　{n}ワールドから　ギャグがなくなっても　{n}われわれの　すがたかたちが　{n}ギャグだってことを{fd:06}・・・{n}{fd:04}\"ギャーグ\"は　かえすよ　　{n}わたしは　どこか　{n}ギャグの　ないところを　さがしにいこう{n}　　　{n}{fd:04}それですむことなのだから{fd:06}・・・・・{n}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:06}...{fd:04}I just could never bring myself to like gags.{p}{fd:04}So I thought if I got rid of the \"Gaaag,\" the source of all gags, gags would disappear from this World.{p}{fd:04}But deep down I knew. Even if gags vanished from the World, the way we look is a gag in itself{fd:06}...{p}{fd:04}I'll return the \"Gaaag.\" I'll go off and look for someplace without gags.{p}{fd:04}That should settle everything{fd:06}...{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1495,8 +1495,8 @@
    "038DDD"
   ],
   "jp": "{fd:02}よくやった!!{n}　　{n}{n}{n}{fd:04}これで　このワールドも　{n}もとの　あかるい　{n}へいわなワールドに　もどるだろう!　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Well done!!{p}{fd:04}Now this World will go back to being the bright, peaceful World it once was!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1507,8 +1507,8 @@
    "038DE0"
   ],
   "jp": "{fd:04}おめでとう!!　　{n}{n}{n}{n}すべてのワールドの　みんなが　　{n}きみたちにかんしゃしてるよ　　　{n}とうぜん　{n}オレも　みなおしたぜ!!　　{n}でも　　　　{n}きみたちは　これで　ワールドの　　{n}ヒーローに　なってしまった　　{n}{n}もしかしたら　　{n}てのとどかない　ひとたちに　　{n}なってしまったのかもな・・・　{n}{n}やめようぜ!!{fd:09}　{fd:04}こんな　はなし{n}　　{n}{n}{n}いまは　きみたちの　しょうりを{n}いわおう!!　{n}そして　ありがとう!!　　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Congratulations!!{p}Everyone in every World is thankful to you guys. And of course, you've gone way up in my book too!!{p}But now you've become heroes of the World.{p}Maybe you've become people who are out of our reach...{p}Let's drop it!!{fd:09} {fd:04}Enough of that talk.{p}Right now, let's celebrate your victory!! And thank you!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1519,8 +1519,8 @@
    "038DE3"
   ],
   "jp": "{fd:02}さあ!　　　　{n}{fd:04}\"ギャーグ\"を　かいほうするのだ!!{n}そして　はやく　かえってこい　　{n}{n}みんなが　おまえたちの　かえりを{n}くびをながくして　まっているぞ!　　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:02}Now then!!{fd:04} Go free the \"Gaaag\"!! And hurry on home!{p}Everyone's waiting with bated breath for you to come back!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1531,8 +1531,8 @@
    "038D4A"
   ],
   "jp": "{fd:03}いらっしゃいませ!　　　{n}{fd:04}ごようけんを　どうぞ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Welcome!!{fd:04} What can I do for you!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1543,8 +1543,8 @@
    "038D86"
   ],
   "jp": "{fd:03}いらっしゃーい!!　　　{n}{fd:04}何が　ほしいんだい?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:03}Welcome!!{fd:04} What'll it be?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1555,8 +1555,8 @@
    "038DA7"
   ],
   "jp": "{fd:04}\"ジャックのおみせ\"に　ようこそぉー{n}なんば　ほしかかね?　　　　{n}オイどんの　みせには　{n}ほかんとこには　{n}なかもんばっかあっど!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Welcome to \"Jack's Shop,\" y'all! Whatcha lookin' fer? My shop's got nothin' but stuff ya can't find nowheres else!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1615,8 +1615,8 @@
    "038D1A"
   ],
   "jp": "{fd:04}ひみつのけんきゅうしつの{n}カギを　てにいれた!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Got the secret lab key!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1627,8 +1627,8 @@
    "038D1D"
   ],
   "jp": "{fd:01}{n}　　　　カギを　つかった{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:01}{n}Used the key.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1639,8 +1639,8 @@
    "038D20"
   ],
   "jp": "{fd:01}このドアに　はいる{n}じょうけんが　そろっていないので{n}はいることが　できない{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:01}The conditions for entering this door haven't been met, so you can't go in.{end}",
+  "status": "tl",
   "notes": ""
  }
 ]

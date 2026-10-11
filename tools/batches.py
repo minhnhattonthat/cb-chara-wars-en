@@ -57,12 +57,13 @@ def read_out(name):
 def check(name):
     want = [l.split("\t")[0] for l in (TL / f"{name}.tsv").read_text(encoding="utf-8").splitlines() if l]
     out = read_out(name)
-    jp = {e["id"]: e["jp"] for e in load()}
+    entries = {e["id"]: e for e in load()}
+    jp = {i: e["jp"] for i, e in entries.items()}
     errs = [f"missing id {i}" for i in want if i not in out] + [f"extra id {i}" for i in out if i not in want]
     terms = lint.glossary_terms()
     for i, en in out.items():
         if i in jp:
-            errs += [f"{i}: {m}" for m in lint.check_dialogue(jp[i], en, terms)]
+            errs += [f"{i}: {m}" for m in lint.check_dialogue(jp[i], en, terms, lint.wrap.box_of(entries[i]))]
     for m in errs:
         print(m)
     print("OK" if not errs else f"{len(errs)} errors")

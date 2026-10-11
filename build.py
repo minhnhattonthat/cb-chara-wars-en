@@ -22,7 +22,8 @@ OUT = ROOT / "build" / "cbcw_en.sfc"
 EN_TBL = ROOT / "tbl" / "en.tbl"
 DIALOGUE_BANK = 0x20                 # LoROM bank for relocated dialogue
 DIALOGUE_FILE = 0x100000             # file offset of $20:8000
-ENGINE_BANK_OPERAND = 0x338D8        # operand of LDA #$07 at $06:B8D7 (dialogue DB)
+# operands of LDA #$07 / PHA / PLB in both text engine copies: $06:B8D7 (field) and $07:E5C7 (shop window)
+ENGINE_BANK_OPERANDS = [0x338D8, 0x3E5C8]
 HEADER_SIZE = 0x7FD7                 # ROM size byte: 0x0A = 1 MiB, 0x0B = 2 MiB
 LINE_WIDTH = 28                      # dialogue chars per line after the box widening below
 # (file offset, original bytes, English bytes); applied to English builds, original bytes asserted first.
@@ -44,7 +45,9 @@ def load(block):
 
 def encode_entry(block, e, jp, en, marker):
     if e["en"]:
-        return text.encode(en, block, wrap.wrap(e["en"]) if block == "dialogue" else e["en"])
+        if block == "dialogue":
+            return en.encode(wrap.wrap(e["en"], *wrap.BOXES[wrap.box_of(e)]))
+        return text.encode(en, block, e["en"])
     if marker and block == "dialogue":
         return en.encode(marker_text(e))
     return text.encode(jp, block, e["jp"])
@@ -73,7 +76,9 @@ def pack_dialogue(rom, entries, jp, en, marker):
             rom.extend(b"\xff" * (0x200000 - len(rom)))
             rom[HEADER_SIZE] = 0x0B
         base_file, bank = DIALOGUE_FILE, DIALOGUE_BANK
-        rom[ENGINE_BANK_OPERAND] = bank
+        for op in ENGINE_BANK_OPERANDS:
+            assert rom[op] == 0x07, f"engine bank operand at {op:06X}"
+            rom[op] = bank
     bank_file = 0x38000 if in_place else base_file   # file offset of <bank>:8000
     pos = base_file
     for e, b in zip(entries, blobs):

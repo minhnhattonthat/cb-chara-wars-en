@@ -30,7 +30,8 @@ def glossary_terms(path=ROOT / "glossary.md"):
     return terms
 
 
-def check_dialogue(jp, en, terms=()):
+def check_dialogue(jp, en, terms=(), box="wide"):
+    width, lines = wrap.BOXES[box]
     errs = []
     if not en.endswith("{end}"):
         errs.append("must end with {end}")
@@ -51,10 +52,10 @@ def check_dialogue(jp, en, terms=()):
     got = Counter((n, a) for n, a in en_codes if n in ("f8", "yesno"))
     if want != got:
         errs.append(f"{{f8}}/{{yesno}} codes differ: JP {dict(want)} EN {dict(got)}")
-    for page in wrap.layout(en):
+    for page in wrap.layout(en, width, lines):
         for line in page:
-            if wrap.visible_len(line) > wrap.WIDTH:
-                errs.append(f"word too long for a {wrap.WIDTH}-column line: {line!r}")
+            if wrap.visible_len(line) > width:
+                errs.append(f"word too long for a {width}-column {box} line: {line!r}")
     for t_jp, t_en, avoid in terms:
         if t_jp in jp and t_en and t_en not in en:
             errs.append(f"glossary: {t_jp} -> {t_en} missing")
@@ -69,7 +70,7 @@ def lint():
     n = 0
     for e in json.loads((ROOT / "script" / "dialogue.json").read_text(encoding="utf-8")):
         if e["en"]:
-            for err in check_dialogue(e["jp"], e["en"], terms):
+            for err in check_dialogue(e["jp"], e["en"], terms, wrap.box_of(e)):
                 print(f"{e['id']}: {err}")
                 n += 1
     print(f"lint: {n} errors")

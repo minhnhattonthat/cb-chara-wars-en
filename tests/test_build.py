@@ -24,7 +24,7 @@ def test_identity_build(tmp_path, monkeypatch):
 def test_marker_build_relocates_dialogue(tmp_path):
     rom = build.build(tmp_path / "m.sfc", marker=True)
     assert len(rom) == 0x200000 and rom[build.HEADER_SIZE] == 0x0B
-    assert rom[build.ENGINE_BANK_OPERAND] == build.DIALOGUE_BANK
+    assert all(rom[op] == build.DIALOGUE_BANK for op in build.ENGINE_BANK_OPERANDS)
     # every dialogue pointer slot now points into bank $20 at a message start
     for e in json.loads((text.SCRIPT_DIR / "dialogue.json").read_text(encoding="utf-8")):
         for s in e["slots"]:
