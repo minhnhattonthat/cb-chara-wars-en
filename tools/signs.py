@@ -22,8 +22,12 @@ TINY = {  # 3x5 font for very small signs
     "A": "010101111101101", "C": "011100100100011", "D": "110101101101110", "E": "111100110100111",
     "G": "011100101101011", "I": "111010010010111", "K": "101101110101101", "L": "100100100100111",
     "N": "101111111111101", "O": "010101101101010", "S": "011100010001110", "!": "010010010000010",
-    "F": "111100110100100", " ": "000000000000000",
+    "F": "111100110100100", "V": "101101101101010", " ": "000000000000000",
+    "B": "110101110101110", "H": "101101111101101", "M": "101111111101101", "P": "110101110100100",
+    "R": "110101110101101", "T": "111010010010010", "U": "101101101101111", "Y": "101101010010010",
+    "&": "010101010101011",
 }
+BPP = {193: 2}  # blocks that are 2bpp (default 4bpp)
 
 
 def game_glyphs():
@@ -52,6 +56,18 @@ SIGNS = {
           dict(rect=(3, 275, 56, 285), lines=["ALMANIC!!"], font="bold", shadow=False, fg=15, outline=1),
           dict(rect=(3, 305, 14, 358), lines=list("NO KIDS!"), font="tiny", shadow=False, vertical=True, fg=15, outline=1),
           dict(rect=(35, 311, 90, 327), lines=["SEXY LANE"], font="bold", shadow=False, fg=10)],
+    37: [dict(rect=(70, 241, 94, 248), lines=["LIVE!"], font="tiny", shadow=False)],
+    193: [dict(rect=(0, 0, 16, 16), lines=["BRA", "IN"], font="tiny"),   # 2bpp 16x16 organ labels
+          dict(rect=(16, 0, 32, 16), lines=["LUNG"], font="tiny"),
+          dict(rect=(32, 0, 48, 16), lines=["STOM", "ACH"], font="tiny"),
+          dict(rect=(48, 0, 80, 16), lines=["LIVER"], font="tiny"),
+          dict(rect=(80, 0, 112, 16), lines=["GALL", "BLADDER"], font="tiny"),
+          dict(rect=(112, 0, 128, 16), lines=["KID", "NEY"], font="tiny"),
+          dict(rect=(0, 16, 16, 32), lines=["PANC", "REAS"], font="tiny"),
+          dict(rect=(16, 16, 32, 32), lines=["SPLE", "EN"], font="tiny"),
+          dict(rect=(32, 16, 64, 32), lines=["BLADDER"], font="tiny"),
+          dict(rect=(64, 16, 80, 32), lines=["GUTS"], font="tiny"),
+          dict(rect=(112, 16, 128, 32), lines=["HE", "ART"], font="tiny")],
     200: [dict(rect=(18, 2, 61, 13), lines=["HEY!"], font="bold", shadow=False),
           dict(rect=(66, 2, 85, 13), lines=["HI"], font="bold", shadow=False),
           dict(rect=(4, 22, 42, 38), lines=["SUMMON"], font="bold", shadow=False)],
@@ -60,14 +76,16 @@ SIGNS = {
 }
 
 
-def get(data, x, y):
-    t = (y // 8) * 16 + x // 8
-    return titlegfx.get_px(data, t, x % 8, y % 8)
+def get(data, x, y, bpp=4):
+    base = ((y // 8) * 16 + x // 8) * 8 * bpp
+    return sum(((data[base + (p // 2) * 16 + (y % 8) * 2 + (p & 1)] >> (7 - x % 8)) & 1) << p for p in range(bpp))
 
 
-def put(data, x, y, v):
-    t = (y // 8) * 16 + x // 8
-    titlegfx.set_px(data, t, x % 8, y % 8, v)
+def put(data, x, y, v, bpp=4):
+    base = ((y // 8) * 16 + x // 8) * 8 * bpp
+    for p in range(bpp):
+        i = base + (p // 2) * 16 + (y % 8) * 2 + (p & 1)
+        data[i] = (data[i] & ~(0x80 >> (x % 8))) | (((v >> p) & 1) << (7 - x % 8))
 
 
 def text_mask(lines, font, w, h, vertical=False):
@@ -122,9 +140,9 @@ def text_mask(lines, font, w, h, vertical=False):
     return {(x, yy) for yy in range(h) for x in range(w) if img.getpixel((x, yy))}
 
 
-def paint(data, sign):
+def paint(data, sign, bpp=4):
     x0, y0, x1, y1 = sign["rect"]
-    counts = Counter(get(data, x, y) for y in range(y0, y1) for x in range(x0, x1))
+    counts = Counter(get(data, x, y, bpp) for y in range(y0, y1) for x in range(x0, x1))
     order = [v for v, _ in counts.most_common()]
     bg, fg = order[0], sign.get("fg", order[1])        # "fg"/"outline": explicit indices where needed
     shadow = order[2] if sign.get("shadow") and len(order) > 2 else None
@@ -142,7 +160,7 @@ def paint(data, sign):
                 v = shadow
             else:
                 v = bg
-            put(data, x, y, v)
+            put(data, x, y, v, bpp)
 
 
 def blocks(rom):
@@ -161,7 +179,7 @@ def apply(rom, reloc):
     """Paint every sign and write the blocks back (in place, or relocated from `reloc`). Returns next reloc."""
     for i, (src, data, used) in blocks(rom).items():
         for s in SIGNS[i]:
-            paint(data, s)
+            paint(data, s, BPP.get(i, 4))
         reloc = titlegfx.put_block(rom, i, src, data, used, reloc)
     return reloc
 
@@ -172,10 +190,10 @@ def preview():
     out = ROOT / "work" / "signs"
     out.mkdir(parents=True, exist_ok=True)
     for i, (src, data, used) in blocks(rom).items():
-        before = gfxsurvey.sheet(bytes(data))
+        before = gfxsurvey.sheet(bytes(data), BPP.get(i, 4))
         for s in SIGNS[i]:
-            paint(data, s)
-        after = gfxsurvey.sheet(bytes(data))
+            paint(data, s, BPP.get(i, 4))
+        after = gfxsurvey.sheet(bytes(data), BPP.get(i, 4))
         ys = [s["rect"][1] for s in SIGNS[i]] + [s["rect"][3] for s in SIGNS[i]]
         top, bot = max(0, min(ys) - 4), min(before.height, max(ys) + 4)
         img = Image.new("L", (264, bot - top), 60)
