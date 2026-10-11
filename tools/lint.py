@@ -57,7 +57,7 @@ def check_dialogue(jp, en, terms=(), box="wide"):
             if wrap.visible_len(line) > width:
                 errs.append(f"word too long for a {width}-column {box} line: {line!r}")
     for t_jp, t_en, avoid in terms:
-        if t_jp in jp and t_en and t_en not in en:
+        if t_jp in jp and t_en and not any(alt in en for alt in t_en.split(" / ")):  # "a / b" = alternatives
             errs.append(f"glossary: {t_jp} -> {t_en} missing")
         for a in avoid:
             if re.search(rf"\b{re.escape(a)}\b", en):

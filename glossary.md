@@ -46,6 +46,11 @@ spellings in the Avoid column fail the check.
 | ガラダ | Garada | | Mechanical Beast | |
 | ダブラスM2 | Doublas M2 | | Mechanical Beast | |
 | デーモン | Demon | | | |
+| うなじゅう | Unaju | | eel demon (pun on unaju, eel on rice) | |
+| だえもん | Daemon | | Kikunosuke's father (Abashiri Ikka) | |
+| ソフィ | Sophie | | | |
+| けっこうかめん | Kekko Kamen | | | |
+| ゼノン | Zenon | | demon lord | Zennon |
 | グール | Ghoul | | | |
 
 ## Places
@@ -65,8 +70,13 @@ spellings in the Avoid column fail the check.
 |---|---|---|---|---|
 | ギャーグ | Gaaag | | the stolen source of all laughter (title: The Lost Gaaag) | Gyaagu, Gag |
 | ギャグ | gag | | ordinary word | |
-| こぶん | henchman | | party followers; plural henchmen | |
+| こぶん | henchman / henchmen | | party followers | |
+| こおに | Little Oni | | | |
+| ドアのカギ | door key | | | |
 | ひみつのけんきゅうしつ | secret lab | | | |
 
 ## Decisions from earlier batches
 - pilot (D130-D133): voice set in docs/style-reference.md.
+- b00-b02: かみさま -> "the gods"/"a god" by context; サタンさま -> Satan (honorific dropped); いざ!! (Grendizer,
+  archaic) -> "En garde!!"; Mecha Hige-Godzilla's おかま camp kept ("us queens").
+- おに -> oni (not lint-enforced: おに also starts おにいさん "mister").
