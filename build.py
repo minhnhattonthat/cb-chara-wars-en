@@ -32,6 +32,9 @@ PATCHES = [
     (0x5DA3B, bytes.fromhex("8a01 1600"), bytes.fromhex("8201 1e00")),
     # dialogue line-start table $06:BA4C (4 lines, bottom first): column 6 -> 2
     (0x33A4C, bytes.fromhex("0c03 8c02 0c02 8c01"), bytes.fromhex("0403 8402 0402 8401")),
+    # shop-name windows (row 5 col 1, h 3; records 1/8/10/12/14/16/18): width -> 10 (8 inner) for English names
+    *[(0x50000 + p + 2, old.to_bytes(2, "little"), (10).to_bytes(2, "little"))
+      for p, old in ((0xDA45, 10), (0xDA8B, 7), (0xDA9F, 4), (0xDAB3, 8), (0xDAC7, 8), (0xDADB, 9), (0xDAEF, 6))],
     # page-start cursor LDA #$018C -> #$0184 ($06:B5FB, $06:B686 -> $1EA5; $07:E396 -> $72)
     (0x335FB, bytes.fromhex("a98c01"), bytes.fromhex("a98401")),
     (0x33686, bytes.fromhex("a98c01"), bytes.fromhex("a98401")),
@@ -93,13 +96,16 @@ def pack_dialogue(rom, entries, jp, en, marker):
     return total, in_place
 
 
-def pack_ptr16(rom, block, entries, jp, en):
-    """Repack a 16-bit pointer block in place, in ROM order, skipping the gaps between the original strings
-    (pointer tables + padding)."""
+def pack_ptr16(rom, block, entries, jp, en, area=None):
+    """Repack a 16-bit pointer block in ROM order: in place (skipping the gaps between the original strings:
+    pointer tables + padding), or into `area` (lo, hi file offsets in the same bank)."""
     base = text.PTR16[block][0]
     offs = [(int(e["off"], 16), int(e["off"], 16) + e["len"]) for e in entries]
     spans = [(a_end, b) for (_, a_end), (b, _) in zip(offs, offs[1:]) if a_end < b]
     lo, hi = offs[0][0], offs[-1][1]
+    if area:
+        lo, hi = area
+        spans = []
     pos = lo
     for e in entries:
         b = encode_entry(block, e, jp, en, False)
@@ -128,8 +134,12 @@ def build(out=OUT, marker=False):
     rom = bytearray(text.ROM.read_bytes())
     jp, en = Table.load(text.JP_TBL), Table.load(EN_TBL)
     total, in_place = pack_dialogue(rom, load("dialogue"), jp, en, marker)
+    if not in_place:
+        # bank 07 script area is free once dialogue lives in bank $20: item names move there
+        rom[text.SCRIPT_LO:text.SCRIPT_HI] = b"\xff" * (text.SCRIPT_HI - text.SCRIPT_LO)
     for block in text.PTR16:
-        pack_ptr16(rom, block, load(block), jp, en)
+        area = (text.SCRIPT_LO, text.SCRIPT_HI) if block == "items" and not in_place else None
+        pack_ptr16(rom, block, load(block), jp, en, area)
     if not in_place:                             # English build: lowercase font, wider dialogue box
         write_font(rom)
         for off, old, new in PATCHES:

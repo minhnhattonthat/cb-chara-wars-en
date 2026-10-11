@@ -7,8 +7,8 @@
    "05DB71"
   ],
   "jp": "{y:10}{x:0C}1　PLAYER{n}{n}{x:0C}2　PLAYERS{n}{n}{n}{x:08}©　DYNAMIC　　　1992{n}{n}{x:08}©　ALMANIC　　　1992{n}{n}{x:08}©　BANPRESTO　1992{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:10}{x:0C}1 PLAYER{n}{n}{x:0C}2 PLAYERS{n}{n}{n}{x:08}© DYNAMIC   1992{n}{n}{x:08}© ALMANIC   1992{n}{n}{x:08}© BANPRESTO 1992{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -55,8 +55,8 @@
    "05DB79"
   ],
   "jp": "{y:15}{x:05}かう{n}{n}{x:05}はなす{n}{x:09}゛{n}{x:05}みせを　てる{n}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:15}{x:05}Buy{n}{n}{x:05}Talk{n}{n}{x:05}Leave{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -67,8 +67,8 @@
    "05DB7B"
   ],
   "jp": "{y:15}{x:14}かう{n}{n}{x:14}はなす{n}{x:18}゛{n}{x:14}みせを　てる{n}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:15}{x:14}Buy{n}{n}{x:14}Talk{n}{n}{x:14}Leave{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -79,8 +79,8 @@
    "05DB7D"
   ],
   "jp": "{y:0F}{x:05}子分1　子分2　子分3　　　　子分1　子分2　子分3{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0F}{x:05}#1  #2  #3       #1  #2  #3{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -91,8 +91,8 @@
    "05DB7F"
   ],
   "jp": "{y:02}{x:03}キッサ店{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Cafe{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -103,8 +103,8 @@
    "05DB81"
   ],
   "jp": "{y:02}{x:04}めしや{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Diner{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -115,8 +115,8 @@
    "05DB83"
   ],
   "jp": "{y:01}{x:03}ﾞ{n}{x:03}てんきや{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Gadgets{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -127,8 +127,8 @@
    "05DB85"
   ],
   "jp": "{y:02}{x:04}ふくや{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Clothes{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -139,8 +139,8 @@
    "05DB87"
   ],
   "jp": "{y:01}{x:04}ﾞ＿ﾞ{n}{x:02}ハンハーカー{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Burgers{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -151,8 +151,8 @@
    "05DB89"
   ],
   "jp": "{y:01}{x:03}ﾞﾞ{n}{x:03}たかしや{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Sweets{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -163,8 +163,8 @@
    "05DB8B"
   ],
   "jp": "{y:02}{x:03}レストラン{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Bistro{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -175,8 +175,8 @@
    "05DB8D"
   ],
   "jp": "{y:01}{x:03}ﾟ{n}{x:02}スホーツ用品店{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Sports{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -187,8 +187,8 @@
    "05DB8F"
   ],
   "jp": "{y:02}{x:02}子分{n}{x:02}゛{n}{x:02}ふきのせんたく{n}{n}{x:02}もちもの{n}{x:02}゜{n}{x:02}ハラメータ{n}{n}{x:02}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Henchmen{n}{n}{x:02}Weapons{n}{n}{x:02}Items{n}{n}{x:02}Status{n}{n}{x:02}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -199,8 +199,8 @@
    "05DB91"
   ],
   "jp": "{y:01}{x:02}ﾟ{n}{x:02}ハラメータ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Status{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -211,8 +211,8 @@
    "05DB93"
   ],
   "jp": "{y:07}{x:04}LIFE　　{icon0D}{icon0E}{icon0F}{n}{n}{x:04}゜{n}{x:04}ハンチ力・・・・・{n}{n}{x:04}キック力・・・・・{n}{x:04}゛　゛{n}{x:04}ほうきょ力・・・・{n}{n}{x:04}子分{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:07}{x:04}LIFE  {icon0D}{icon0E}{icon0F}{n}{n}{n}{x:04}Punch.....{n}{n}{x:04}Kick......{n}{n}{x:04}Defense...{n}{n}{x:04}Henchmen{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -223,8 +223,8 @@
    "05DB95"
   ],
   "jp": "{y:02}{x:02}子分{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Henchmen{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -235,8 +235,8 @@
    "05DB97"
   ],
   "jp": "{y:03}{x:05}゛{n}{x:04}みかわり{n}{x:04}゜{n}{x:04}ハシリ{n}{x:04}゛{n}{x:04}ハイト{n}{x:05}゛{n}{x:04}進かす{n}{n}{x:04}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:03}{n}{x:04}Decoy{n}{n}{x:04}Gofer{n}{n}{x:04}Work{n}{n}{x:04}Move{n}{n}{x:04}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -247,8 +247,8 @@
    "05DB99"
   ],
   "jp": "{y:01}{x:03}ﾞ{n}{x:02}みかわり{n}{x:04}゛{n}{x:04}たれを?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Decoy{n}{n}{x:04}Who?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -262,8 +262,8 @@
    "05DBA7"
   ],
   "jp": "{y:12}{x:04}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:12}{x:04}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -274,8 +274,8 @@
    "05DB9D"
   ],
   "jp": "{y:01}{x:02}ﾟ{n}{x:02}ハシリ{n}{x:04}゛{n}{x:04}たれを?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Gofer{n}{n}{x:04}Who?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -286,8 +286,8 @@
    "05DBA1"
   ],
   "jp": "{y:01}{x:02}ﾞ{n}{x:02}ハイト{n}{x:04}゛{n}{x:04}たれを?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Work{n}{n}{x:04}Who?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -298,8 +298,8 @@
    "05DBA5"
   ],
   "jp": "{y:01}{x:03}ﾞ{n}{x:02}進かす{n}{x:04}゛{n}{x:04}たれを?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Move{n}{n}{x:04}Who?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -310,8 +310,8 @@
    "05DBA9"
   ],
   "jp": "{y:02}{x:02}何をかいに?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Buy what?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -322,8 +322,8 @@
    "05DBAB"
   ],
   "jp": "{y:07}{x:06}゛{n}{x:04}こうけき用アイテム{n}{x:04}゛　゛{n}{x:04}ほうきょ用アイテム{n}{n}{x:04}HP用アイテム{n}{n}{x:04}そのた{n}{n}{x:04}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:07}{n}{x:04}Attack items{n}{n}{x:04}Defense items{n}{n}{x:04}HP items{n}{n}{x:04}Other{n}{n}{x:04}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -334,8 +334,8 @@
    "05DBAD"
   ],
   "jp": "{y:01}{x:02}ﾞ{n}{x:02}ふきのせんたく{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:02}Weapons{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -346,8 +346,8 @@
    "05DBAF"
   ],
   "jp": "{y:0F}{x:04}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0F}{x:04}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -358,8 +358,8 @@
    "05DBB1"
   ],
   "jp": "{y:02}{x:02}もちもの{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Items{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -370,8 +370,8 @@
    "05DBB3"
   ],
   "jp": "{y:19}{x:04}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:19}{x:04}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -382,8 +382,8 @@
    "05DBB5"
   ],
   "jp": "{y:04}{x:05}ﾞ{n}{x:05}とうしますか?{n}{n}{x:06}つかう{n}{n}{x:06}わたす{n}{n}{x:06}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{n}{x:05}Do what?{n}{n}{x:06}Use{n}{n}{x:06}Give{n}{n}{x:06}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -394,8 +394,8 @@
    "05DBB7"
   ],
   "jp": "{y:0E}{x:05}ﾞ{n}{x:05}とうしますか?{n}{n}{x:06}つかう{n}{n}{x:06}わたす{n}{n}{x:06}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0E}{n}{x:05}Do what?{n}{n}{x:06}Use{n}{n}{x:06}Give{n}{n}{x:06}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -406,8 +406,8 @@
    "05DBB9"
   ],
   "jp": "{y:12}{x:05}゛{n}{x:05}たれも　いません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:12}{n}{x:05}Nobody here!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -418,8 +418,8 @@
    "05DBBB"
   ],
   "jp": "{y:09}{x:04}゛{n}{x:04}たれも　いません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:09}{n}{x:04}Nobody here!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -430,8 +430,8 @@
    "05DBBD"
   ],
   "jp": "{y:08}{x:04}何も　もっていません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:08}{x:04}You have nothing!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -442,8 +442,8 @@
    "05DBBF"
   ],
   "jp": "{y:0D}{x:04}何も　もっていません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0D}{x:04}You have nothing!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -454,8 +454,8 @@
    "05DBC1"
   ],
   "jp": "{y:06}{x:06}あいての{n}{x:0A}゛{n}{x:06}もちものか{n}{x:08}゜　゛{n}{x:06}いっはいてす{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:06}{x:06}Their{n}{n}{x:06}inventory{n}{n}{x:06}is full.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -466,8 +466,8 @@
    "05DBC3"
   ],
   "jp": "{y:10}{x:06}あいての{n}{x:0A}゛{n}{x:06}もちものか{n}{x:08}゜　゛{n}{x:06}いっはいてす{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:10}{x:06}Their{n}{n}{x:06}inventory{n}{n}{x:06}is full.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -478,8 +478,8 @@
    "05DBC5"
   ],
   "jp": "{y:06}{x:06}わたす{n}{x:09}゛{n}{x:06}あいてか{n}{n}{x:06}いません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:06}{x:06}Nobody{n}{n}{x:06}to give{n}{n}{x:06}it to!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -490,8 +490,8 @@
    "05DBC7"
   ],
   "jp": "{y:10}{x:06}わたす{n}{x:09}゛{n}{x:06}あいてか{n}{n}{x:06}いません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:10}{x:06}Nobody{n}{n}{x:06}to give{n}{n}{x:06}it to!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -502,8 +502,8 @@
    "05DBC9"
   ],
   "jp": "{y:04}{x:05}ﾞ{n}{x:05}たれに?{n}{x:06}゛゛{n}{x:06}しふん{n}{x:06}子分1{n}{x:06}子分2{n}{x:06}子分3{n}{x:06}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{n}{x:05}To whom?{n}{n}{x:06}Me{n}{x:06}#1{n}{x:06}#2{n}{x:06}#3{n}{x:06}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -514,8 +514,8 @@
    "05DBCB"
   ],
   "jp": "{y:0E}{x:05}ﾞ{n}{x:05}たれに?{n}{x:06}゛゛{n}{x:06}しふん{n}{x:06}子分1{n}{x:06}子分2{n}{x:06}子分3{n}{x:06}EXIT{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0E}{n}{x:05}To whom?{n}{n}{x:06}Me{n}{x:06}#1{n}{x:06}#2{n}{x:06}#3{n}{x:06}EXIT{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -526,8 +526,8 @@
    "05DBCD"
   ],
   "jp": "{y:01}{x:0C}ﾞ{n}{x:0C}とれにしますか?{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:01}{n}{x:0C}Which one?{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -538,8 +538,8 @@
    "05DBCF"
   ],
   "jp": "{y:14}{x:03}ﾞ＿ﾞ{n}{x:03}たれか　かう?{n}{n}{x:05}子分1・・・・・・・{n}{x:05}子分2・・・・・・・{n}{x:05}子分3・・・・・・・{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:14}{n}{x:03}Who buys?{n}{n}{x:05}#1......{n}{x:05}#2......{n}{x:05}#3......{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -550,8 +550,8 @@
    "05DBD1"
   ],
   "jp": "{y:14}{x:12}ﾞ＿ﾞ{n}{x:12}たれか　かう?{n}{n}{x:14}子分1・・・・・・・{n}{x:14}子分2・・・・・・・{n}{x:14}子分3・・・・・・・{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:14}{n}{x:12}Who buys?{n}{n}{x:14}#1......{n}{x:14}#2......{n}{x:14}#3......{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -562,8 +562,8 @@
    "05DBD3"
   ],
   "jp": "{y:17}{x:0B}いません{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:17}{x:0B}None{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -574,8 +574,8 @@
    "05DBD5"
   ],
   "jp": "{y:18}{x:0B}いません{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:18}{x:0B}None{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -586,8 +586,8 @@
    "05DBD7"
   ],
   "jp": "{y:19}{x:0B}いません{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:19}{x:0B}None{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -598,8 +598,8 @@
    "05DBD9"
   ],
   "jp": "{y:17}{x:1A}いません{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:17}{x:1A}None{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -610,8 +610,8 @@
    "05DBDB"
   ],
   "jp": "{y:18}{x:1A}いません{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:18}{x:1A}None{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -622,8 +622,8 @@
    "05DBDD"
   ],
   "jp": "{y:19}{x:1A}いません{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:19}{x:1A}None{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -634,8 +634,8 @@
    "05DBDF"
   ],
   "jp": "{y:05}{x:0F}゛　　　　゛{n}{x:0D}子分かいないのて　かえません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{x:0D}No henchmen,{n}{x:0D}can't buy!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -646,8 +646,8 @@
    "05DBE1"
   ],
   "jp": "{y:05}{x:12}゛{n}{x:0F}おかねか　たりません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{n}{x:0D}Not enough money!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -658,8 +658,8 @@
    "05DBE3"
   ],
   "jp": "{y:05}{x:11}゛　　゜　゛{n}{x:0D}もちものかいっはいて{n}{n}{x:16}かえません!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{n}{x:0D}Inventory full,{n}{n}{x:0D}can't buy it!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -670,8 +670,8 @@
    "05DBE5"
   ],
   "jp": "{y:05}{x:10}゛　　゛゛{n}{x:0E}ありかとうこさいます!!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{n}{x:0E}Thank you!!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -682,8 +682,8 @@
    "05DBE7"
   ],
   "jp": "{y:05}{x:0F}゛{n}{x:0D}HPか　　　　かいふくしました!{n}{n}{x:13}/　　{icon0D}{icon0E}{icon0F}{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{n}{x:0D}HP restored!{n}{n}{x:13}/  {icon0D}{icon0E}{icon0F}{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -694,8 +694,8 @@
    "05DBE9"
   ],
   "jp": "{y:06}{x:0E}あーー!　おいしかった!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:06}{x:0D}Ahh! Delicious!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -706,8 +706,8 @@
    "05DBEB"
   ],
   "jp": "{y:04}{x:0E}゛{n}{x:0D}くしつきアイス{n}{x:11}゛　゛　　゛　　　　゜{n}{x:0E}あたりか　てたのて　もう1ほん{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{n}{x:0D}Lottery ice pop{n}{n}{x:0D}Winner! One more!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -718,8 +718,8 @@
    "05DBED"
   ],
   "jp": "{y:0E}{x:05}LET'S　TRY　BONUS　STAGE!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0E}{x:05}LET'S TRY BONUS STAGE!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -730,8 +730,8 @@
    "05DBEF"
   ],
   "jp": "{y:06}{x:09}゛{n}{x:05}もちものか{n}{x:07}゜　゛{n}{x:05}いっはいて{n}{x:05}゜{n}{x:05}ハシリさせても{n}{x:06}゛゛{n}{x:05}むたてすよ!!{n}{n}{n}{n}{n}{x:04}　　　　{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:06}{x:05}Your{n}{x:05}items{n}{x:05}are{n}{x:05}full,{n}{x:05}gofers{n}{x:05}are{n}{x:05}no use!{n}{n}{n}{n}{n}{n}{x:04}    {end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -742,8 +742,8 @@
    "05DBF1"
   ],
   "jp": "{y:0B}{x:13}ﾞ{n}{x:07}しょうひんを　ルーレットて　きめます!{n}{x:0A}゛　　　　　　　　゛{n}{x:07}何か　ホタンを　おしてくたさい!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0B}{n}{x:07}Spin for a prize!{n}{n}{x:07}Press any button!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -754,8 +754,8 @@
    "05DBF3"
   ],
   "jp": "{y:0E}{x:06}LET'S　PLAY　STAGE　　!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0E}{x:06}LET'S PLAY STAGE  !!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -766,8 +766,8 @@
    "05DBF5"
   ],
   "jp": "{y:0A}{x:0D}PAUSE{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:0A}{x:0D}PAUSE{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -778,8 +778,8 @@
    "05DBF7"
   ],
   "jp": "{y:04}{x:06}゛{n}{x:04}ここては{n}{x:09}゛{n}{x:04}子分コマントは{n}{n}{x:04}つかえません!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{x:04}Can't{n}{x:04}give{n}{x:04}orders{n}{x:04}to{n}{x:04}henchmen{n}{x:04}here!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -790,8 +790,8 @@
    "05DBF9"
   ],
   "jp": "{y:05}{x:06}゛{n}{x:04}HPか{n}{n}{x:04}かいふくしました!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{n}{x:04}HP{n}{n}{x:04}restored!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -802,8 +802,8 @@
    "05DBFB"
   ],
   "jp": "{y:05}{x:08}゛{n}{x:04}LIFEか{n}{x:05}゛{n}{x:04}あかりました!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{n}{x:04}LIFE{n}{n}{x:04}went up!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -814,8 +814,8 @@
    "05DBFD"
   ],
   "jp": "{y:04}{x:04}゛　゛　　゛{n}{x:04}ほうきょ力か{n}{n}{n}{x:05}゛{n}{x:04}あかりました!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{n}{x:04}Defense{n}{n}{n}{n}{x:04}went up!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -826,8 +826,8 @@
    "05DBFF"
   ],
   "jp": "{y:04}{x:04}゜　　　゛{n}{x:04}ハンチ力か{n}{n}{n}{x:05}゛{n}{x:04}あかりました!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{n}{x:04}Punch{n}{n}{n}{n}{x:04}went up!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -838,8 +838,8 @@
    "05DC01"
   ],
   "jp": "{y:04}{x:08}゛{n}{x:04}キック力か{n}{n}{n}{x:05}゛{n}{x:04}あかりました!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{n}{x:04}Kick{n}{n}{n}{n}{x:04}went up!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -850,8 +850,8 @@
    "05DC03"
   ],
   "jp": "{y:08}{x:04}を　つかいました{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:08}{x:04}was used.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -862,8 +862,8 @@
    "05DC05"
   ],
   "jp": "{y:04}{x:0A}はい{n}{n}{x:0A}いいえ{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:04}{x:0A}Yes{n}{n}{x:0A}No{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -874,8 +874,8 @@
    "05DC07"
   ],
   "jp": "{y:02}{x:03}やみいち{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:02}{x:02}Smuggler{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -886,8 +886,8 @@
    "05DC09"
   ],
   "jp": "{y:06}{x:04}子分は　めいれいを{n}{n}{x:04}きょひしました!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:06}{x:04}Henchman{n}{x:04}refused{n}{x:04}orders!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -898,8 +898,8 @@
    "05DC0B"
   ],
   "jp": "{y:05}{x:06}゛{n}{x:04}ここては{n}{n}{x:04}つかえません!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:05}{x:04}Can't{n}{x:04}use{n}{x:04}that{n}{x:04}here!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -910,8 +910,8 @@
    "05DC0D"
   ],
   "jp": "{y:07}{x:07}UP!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{y:07}{x:07}UP!!{end}",
+  "status": "tl",
   "notes": ""
  }
 ]
