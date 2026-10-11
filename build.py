@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
 import lz  # noqa: E402
 import text  # noqa: E402
+import wrap  # noqa: E402
 from tbl import Table  # noqa: E402
 
 OUT = ROOT / "build" / "cbcw_en.sfc"
@@ -43,7 +44,7 @@ def load(block):
 
 def encode_entry(block, e, jp, en, marker):
     if e["en"]:
-        return text.encode(en, block, e["en"])
+        return text.encode(en, block, wrap.wrap(e["en"]) if block == "dialogue" else e["en"])
     if marker and block == "dialogue":
         return en.encode(marker_text(e))
     return text.encode(jp, block, e["jp"])

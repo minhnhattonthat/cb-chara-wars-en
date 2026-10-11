@@ -1567,8 +1567,8 @@
    "038D7A"
   ],
   "jp": "{fd:04}デビルマン!マジンガーZ!{n}よくきくのだ!{fd:09}　{n}{fd:04}きょうは　おまえたちに{n}じゅうような　はなしがある!!{n}いま　このせかいは{n}たいへんな　じょうたいに{n}なろうとしている!{n}{n}それは{fd:09}　{fd:04}せかいじゅうから{n}わらいが　きえようと　しているらしいのだ{n}{n}{n}わらうことが　できなくなると{n}ひとびとのせいかつは{n}くらく{fd:09}　{n}{fd:04}つらいひびがつづく{n}そして{fd:09}　{fd:04}わらえなくなったひとびとは{n}おこることだけでしか{n}かんじょうを　ひょうげんできずに{n}あらそうことだけと　なるのだ!!{n}この　じょうたいの　げんいんは{fd:09}　{n}{fd:04}わらいのもとである　\"ギャーグ\"に{n}なにか　いへんが　おきたにちがいない!{n}{n}おまえたちは{fd:09}　{fd:04}\"ギャーグ\"を　さがして{fd:09}　{n}{fd:04}げんいんを　しらべてきてほしいのだ!!{n}{n}{n}ワシの　むすめの　\"きくのすけ\"も{n}おまえたちを　サポートしてくれるから{n}いろいろ　きいたほうがいい{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Devilman! Mazinger Z! Listen well!{fd:09} {fd:04}I have something very important to tell you today!!{p}Right now, this world is headed for terrible trouble!{p}It seems that{fd:09} {fd:04}laughter is about to vanish from the whole world!{p}When people can't laugh anymore, their lives turn gloomy{fd:09} {fd:04}and every day is a struggle.{p}And then{fd:09} {fd:04}people who can't laugh can only show their feelings through anger, until fighting is all that's left!!{p}The cause of all this{fd:09} {fd:04}must be some disaster that befell the \"Gaaag,\" the source of all laughter!{p}I want you{fd:09} {fd:04}to find the \"Gaaag\"{fd:09} {fd:04}and get to the bottom of this!!{p}My daughter \"Kikunosuke\" will be there to support you, so ask her about anything you need.{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1579,8 +1579,8 @@
    "038D7D"
   ],
   "jp": "{fd:04}がんばってな!{n}オレも　すぐ　おいかけるから{n}さきにいっててくれ!{n}{n}あと　オレのダチも　{n}キミたちを　たすけてくれる!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Good luck out there! I'll catch up with you soon, so go on ahead!{p}Oh, and my buddies will help you guys out too!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1591,8 +1591,8 @@
    "038D80"
   ],
   "jp": "{fd:04}\"ギャーグ\"は　せいしょうたいしゃに{n}あるはずだ!{n}{n}{n}ただ{n}ワシは　せいしょうたいしゃが{n}どこにあるのか　わからん!{n}じぶんたちの　ちからで　みつけてくれ!{n}{fd:04}このせかいを　すくえば{n}\"ヒーロー\"に　なれるのだからな!{n}がんばってくれよ!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}The \"Gaaag\" should be at the Seisho Shrine!{p}Thing is, I have no idea where the Seisho Shrine is! You'll have to find it yourselves!{p}{fd:04}Save this world, and you'll be \"heroes\"! Give it your all!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
@@ -1603,8 +1603,8 @@
    "038D83"
   ],
   "jp": "{fd:04}さいしょのワールドに　ついたら{fd:09}　{n}{fd:04}まず　\"みき\"をさがしな!!{n}{n}{n}いろいろ　おしえてくれるはずだぜ!!{n}がんばれよ!!{end}",
-  "en": "",
-  "status": "todo",
+  "en": "{fd:04}Once you reach the first World,{fd:09} {fd:04}go find \"Miki\" first thing!!{p}She'll tell you all kinds of useful stuff!! Good luck!!{end}",
+  "status": "tl",
   "notes": ""
  },
  {
