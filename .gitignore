@@ -1,0 +1,11 @@
+rom/
+build/
+work/
+dist/
+release/
+tools/*/
+states/
+*.mss
+__pycache__/
+.agents/
+skills-lock.json
