@@ -19,7 +19,15 @@ Prior English patch: none found (web search, 2 queries). No known docs/tables fo
 - `tools/tilesheet.py` (copied): render raw 2bpp/4bpp tiles to PNG.
 - Note: Mesen reports writes done by DMA with the PC of the instruction after `STA $420B`; $2118 writer PC `$00:8960` = DMA queue, not text code.
 
-## Next
+## Findings after recon (all used by build.py)
+- Tables: tbl/jp.tbl from the VRAM font (BG3 chars at VRAM $C000; code == tile; ASCII 20-5F, hiragana 60-8D, katakana 90-BD, small kana C0-D7, kanji 08-1F). Controls FD nn (typing speed), F8 nn, F7 yes/no, FE newline, FF end.
+- Dialogue: 137 messages at 0x38DF8-0x3C33E, 24-bit pointer tables 07:8BCA (115 slots incl. 8D1A), 07:8D4A (58). Loaders $06:B60E, $07:E3CF, $0B:CB32. Two engine copies read with DB=07: $06:B8D1 (field) and $07:E5C1 (shop window).
+- Windows: records via pointer list 0B:D9FD (pos, width, height, ...). Window 0 = dialogue box. Line starts $06:BA4C; page-start cursor LDA #$018C at $06:B5FB/$06:B686/$07:E396; $07:E374 picks wide vs portrait window ($32 bit 4 or $33 >= 9 -> wide).
+- Items: 16-bit tables 07:DE74 (65), 07:E17F (3), 07:E1B3 (9); text = dakuten row FE name row. Menus: 0B:DB71 (79), row byte then column byte per line.
+- LZ (tools/lz.py, decompressor $00:F7B4): font block 14:8000 (file 0xA0000, 0x1000 bytes -> VRAM $C000); recompressor is byte-identical to the original.
+- HUD strings (tilemap words) bank 06 around 0x304D8.
+
+## Next (historical)
 1. Build glyph table: dump VRAM font after the dialogue starts, match tile numbers to kana/kanji (render with tilesheet.py) -> `tbl/jp.tbl`.
 2. Find where the font gets into VRAM (decompress routine; source via DMA from $7E8000, look for the WRAM writer/decompressor) and whether tile set is fixed or per-scene.
 3. Find script structure: how `$1EA7` gets set (writers of $1EA7), message-ID/pointer tables, other text engines (menus, battle, stage titles, credits).
