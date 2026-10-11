@@ -215,7 +215,7 @@ def apply(rom):
     logo, used = lz.decompress(rom, file_off(BLOCK))
     sub, sub_used = lz.decompress(rom, file_off(SUB_BLOCK))
     reloc = put_block(rom, LOGO_ID, BLOCK, draw(vram, logo), used, RELOC_FILE)
-    put_block(rom, SUB_ID, SUB_BLOCK, draw_subtitle(sub), sub_used, reloc)
+    return put_block(rom, SUB_ID, SUB_BLOCK, draw_subtitle(sub), sub_used, reloc)  # next free relocation offset
 
 
 def preview():

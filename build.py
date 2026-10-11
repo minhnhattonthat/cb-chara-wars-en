@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
 import hilite  # noqa: E402
 import titlegfx  # noqa: E402
+import signs  # noqa: E402
 import lz  # noqa: E402
 import text  # noqa: E402
 import wrap  # noqa: E402
@@ -152,7 +153,9 @@ def build(out=OUT, marker=False):
     if not in_place:                             # English build: lowercase font, wider dialogue box
         write_font(rom)
         hilite.apply(rom)                        # menu highlight spans sized to the English labels
-        titlegfx.apply(rom)                      # title logo "CHARA WARS" + subtitle "The Lost Gaaag"
+        reloc = titlegfx.apply(rom)              # title logo "CHARA WARS" + subtitle "The Lost Gaaag"
+        reloc = signs.apply(rom, reloc)          # shop/town signs, balloons, sound effects drawn in graphics
+        assert reloc <= titlegfx.RELOC_FILE + 0x8000, "relocated graphics overflow bank $22"
         for off, old, new in PATCHES:
             assert rom[off:off + len(old)] == old, f"patch at {off:06X}: unexpected bytes"
             rom[off:off + len(new)] = new
