@@ -13,7 +13,7 @@ TOKEN = re.compile(r"(\{[a-z0-9]+(?::[0-9A-F]+)?\})")
 # Two windows: "wide" = widened box 0 (28 cols, 4 lines); "shop" = portrait + right window (cols 12-29, 5 lines),
 # used by table 07:8D4A messages unless a cutscene flag picks the wide box ($07:E380). "both" fits either.
 BOXES = {"wide": (28, 4), "shop": (18, 5), "both": (18, 4)}
-WIDE_8D4A = {"D124", "D125", "D126", "D130", "D131", "D132", "D133"}  # intro/ending: cutscene, wide box
+WIDE_8D4A = {"D130", "D131", "D132", "D133"}  # intro cutscene: wide box (seen in game)
 T8BCA = range(0x38BCA, 0x38BCA + 115 * 3)
 T8D4A = range(0x38D4A, 0x38D4A + 58 * 3)
 
@@ -21,7 +21,8 @@ T8D4A = range(0x38D4A, 0x38D4A + 58 * 3)
 def box_of(entry):
     tables = {("8BCA" if int(s, 16) in T8BCA else "8D4A") for s in entry["slots"]}
     if tables == {"8D4A"}:
-        return "wide" if entry["id"] in WIDE_8D4A else "shop"
+        # $07:E380 picks the box at runtime ($32 bit 4 / $33 >= 9 -> wide), so unverified ones must fit both
+        return "wide" if entry["id"] in WIDE_8D4A else "both"
     return "both" if len(tables) == 2 else "wide"
 
 
