@@ -82,7 +82,19 @@ def merge(name):
     print(f"merged {len(out)} entries")
 
 
+def pairs(parts=2):
+    """work/tl/pairs_rN.txt: '>> id [box] | JP' / 'EN' for every translated entry, split in `parts` files."""
+    import wrap
+    done = [e for e in load() if e["en"]]
+    size = -(-len(done) // parts)
+    for k in range(parts):
+        chunk = done[k * size:(k + 1) * size]
+        lines = [f">> {e['id']} [{wrap.box_of(e)}] | {e['jp'].replace('{n}', ' / ')}\n   {e['en']}\n" for e in chunk]
+        (TL / f"pairs_r{k}.txt").write_text("\n".join(lines), encoding="utf-8", newline="\n")
+        print(f"pairs_r{k}.txt: {len(chunk)} entries")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
     {"split": lambda: split(), "check": lambda: sys.exit(0 if check(sys.argv[2]) else 1),
-     "merge": lambda: merge(sys.argv[2])}[cmd]()
+     "merge": lambda: merge(sys.argv[2]), "pairs": lambda: pairs()}[cmd]()

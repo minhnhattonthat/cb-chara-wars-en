@@ -128,8 +128,8 @@
    "038BDF"
   ],
   "jp": "{fd:04}わたしのなまえは　\"さやか\"{n}あなたたちがくるのを　まっていたわ!　　{n}{n}{n}ここは　ふじさんの　ふもとのまち　{n}\"マジンガーワールド\"よ!!　　　{n}みぎにすすむと　ふじさんへ{n}いくことが　できるわ!!{end}",
-  "en": "{fd:04}My name is \"Sayaka.\" I've been waiting for you to come!{p}This is \"Mazinger World,\" a town at the foot of Mt. Fuji!! Head right and you can get to Mt. Fuji!!{end}",
-  "status": "tl",
+  "en": "{fd:04}My name is \"Sayaka.\" I've been waiting for you to come!{p}This is \"Mazinger World,\" a town at the foot of Mount Fuji!! Head right and you can get to Mount Fuji!!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
@@ -392,8 +392,8 @@
    "038D68"
   ],
   "jp": "{fd:04}このごろ　つるぎさんとこの{n}グレートちゃんが　グレちゃってねー{n}{n}{n}{n}おみせのまえのみちを　みぎにすすむと{n}となりのワールドに　いけたんだけど　{n}グレートちゃんが{n}カギをかけちゃったのよぉー　　　{n}こまったもんだねー{end}",
-  "en": "{fd:04}Lately Tetsuya Tsurugi's little Great has turned into a great big delinquent, y'know!{p}You used to be able to reach the next World by heading right on the road in front of the shop, but little Great went and locked it up! What a pain, honestly!{end}",
-  "status": "tl",
+  "en": "{fd:04}Lately Tetsuya Tsurugi's Great Mazinger has gone all delinquent on us, y'know!{p}You used to be able to reach the next World by heading right on the road in front of the shop, but Great Mazinger went and locked it up! What a pain, honestly!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
@@ -729,8 +729,8 @@
    "038D74"
   ],
   "jp": "{fd:05}てきキャラの　\"こおに\"は　{n}カミナリで　こうげきするわ　　　{n}あの　こうげきには　ちゅういして!{n}{n}{n}あっ!　そういえば・・・・　{n}\"きくのすけちゃん\"には　あったの?{n}あなたたちのことを　　{n}さがしていたわよ!{end}",
-  "en": "{fd:05}The enemy \"Little Oni\" attack with lightning. Watch out for that attack!{p}Oh! That reminds me... Have you met \"Kikunosuke\" yet? She was looking for you!{end}",
-  "status": "tl",
+  "en": "{fd:05}The enemy \"Little Oni\" attacks with lightning. Watch out for that attack!{p}Oh! That reminds me... Have you met \"Kikunosuke\" yet? She was looking for you!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
@@ -801,8 +801,8 @@
    "038DB0"
   ],
   "jp": "{fd:04}どうくつのなかは　{n}ようがんで　いっぱい{n}{n}{n}{n}おまけに　カベからは　　{n}ひが　ふきだしてて　{n}とても　きけんな　ばしょらしいわ!!{n}{n}{n}あと　どうくつのなかの　めいろは　{n}とおりみちが　4つぐらいあって　{n}とおったみちによって　{n}ボスのつよさが　かわるそうよ!!{end}",
-  "en": "{fd:04}The inside of the cave is full of lava,{p}and on top of that, fire spurts out of the walls. They say it's a really dangerous place!!{p}Also, the maze in the cave has about 4 paths, and they say the boss's strength changes depending on which path you take!!{end}",
-  "status": "tl",
+  "en": "{fd:04}The inside of the cave is full of lava,{p}and on top of that, fire spurts out of the walls. They say it's a really dangerous place!!{p}Also, the maze in the cave has about four paths, and they say the boss's strength changes depending on which path you take!!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
@@ -885,8 +885,8 @@
    "038C39"
   ],
   "jp": "{fd:02}どこの　だれかは　しらないが　{n}ムチムチプリンは　しっている!　　{n}{n}{n}あくのてしため!!　　{n}この　けっこうかめんが　{n}せいばいしてやる!!!!{end}",
-  "en": "{fd:02}Who I am, nobody knows... but everybody knows this bouncy booty!{p}Minion of evil!! I, Kekko Kamen, shall punish you!!!!{end}",
-  "status": "tl",
+  "en": "{fd:02}Who I am, nobody knows... but everybody knows these bouncy buns!{p}Minion of evil!! I, Kekko Kamen, shall punish you!!!!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
@@ -897,8 +897,8 @@
    "038C3C"
   ],
   "jp": "{fd:04}ほっ　ほっ　ほっ　ほっ　ほっ!{n}{fd:03}なかなかやるじゃあ　あありませんか!!{n}プチプチプッチンですよっっ!!{end}",
-  "en": "{fd:04}Oh ho ho ho ho! {fd:03}My, aren't you gooood!! How positively poppity-pop-POP!!{end}",
-  "status": "tl",
+  "en": "{fd:04}Oh ho ho ho ho! {fd:03}My, aren't you gooood!! How positively puddin'-puddin'-POP!!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
@@ -1017,8 +1017,8 @@
    "038C4B"
   ],
   "jp": "{fd:04}ふたりを　たすけてくれて　ありがとう{n}{n}{n}{n}これで　このワールドも　{n}せいじょうに　なるでしょう{n}{n}{n}あくまのけしん\"あすか　りょう\"は　{n}\"わらいのおしろ\"に　いるはずです!!{n}{n}{n}\"わらいのおしろ\"に　いくには　{n}\"アルプスさんみゃく\"の　どこかに{n}いりぐちが　あると　{n}いいつたえられています{n}その　いどは　{n}\"アルプスさんみゃく\"と　つながりました{n}これで　いくことが　できるはずです!{n}{n}あと　すこしです!　　　　{n}がんばってください!{end}",
-  "en": "{fd:04}Thank you for saving them both.{p}Now this World should go back to normal, too.{p}The devil incarnate, \"Ryo Asuka,\" should be in the \"Castle of Laughter\"!!{p}Legend says the entrance to the \"Castle of Laughter\" lies somewhere in the \"Alps.\" That well now leads to the \"Alps,\" so you can get there!{p}Just a little further! Keep it up!{end}",
-  "status": "tl",
+  "en": "{fd:04}Thank you for saving them both.{p}Now this World should go back to normal, too.{p}The devil incarnate, \"Ryo Asuka,\" should be in the \"Castle of Laughter\"!!{p}Legend says the entrance to the \"Castle of Laughter\" lies somewhere in the \"Alps.\" The well here now leads to the \"Alps,\" so you can get there!{p}Just a little further! Keep it up!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
@@ -1245,8 +1245,8 @@
    "038C6F"
   ],
   "jp": "{fd:04}ほっ　ほっ　ほっ　ほっ　ほっ!{n}{fd:02}ふたたび{n}おしおきを　あたえるために{n}わたしは　やってきましたよ!{n}うまれかわった　わたしに{n}かつことが　できるかしら!?{n}{fd:04}ほっ　ほっ　ほっ　ほっ　ほっ!{end}",
-  "en": "{fd:04}Ho ho ho ho ho!{fd:02} I have come once again to give you your punishment! Can you beat me now that I've been reborn!?{fd:04} Ho ho ho ho ho!{end}",
-  "status": "tl",
+  "en": "{fd:04}Oh ho ho ho ho!{fd:02} I have come once again to give you your punishment! Can you beat me now that I've been reborn!?{fd:04} Oh ho ho ho ho!{end}",
+  "status": "reviewed",
   "notes": ""
  },
  {
