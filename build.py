@@ -35,6 +35,11 @@ PATCHES = [
     # shop-name windows (row 5 col 1, h 3; records 1/8/10/12/14/16/18): width -> 10 (8 inner) for English names
     *[(0x50000 + p + 2, old.to_bytes(2, "little"), (10).to_bytes(2, "little"))
       for p, old in ((0xDA45, 10), (0xDA8B, 7), (0xDA9F, 4), (0xDAB3, 8), (0xDAC7, 8), (0xDADB, 9), (0xDAEF, 6))],
+    # pause menu window 7 (row 5 col 1, h 11): width 9 -> 10 so "Henchmen" clears the border
+    (0x5DA81 + 2, (9).to_bytes(2, "little"), (10).to_bytes(2, "little")),
+    # 2P HUD "らんにゅう OK!!" (tilemap words, 10 cells at $06:8514) -> "JOIN OK!! "
+    (0x30514, bytes(b for c in bytes.fromhex("868d75d262004f4b2121") for b in (c, 0x20)),
+     bytes(b for c in b"JOIN OK!! " for b in (c, 0x20))),
     # page-start cursor LDA #$018C -> #$0184 ($06:B5FB, $06:B686 -> $1EA5; $07:E396 -> $72)
     (0x335FB, bytes.fromhex("a98c01"), bytes.fromhex("a98401")),
     (0x33686, bytes.fromhex("a98c01"), bytes.fromhex("a98401")),
