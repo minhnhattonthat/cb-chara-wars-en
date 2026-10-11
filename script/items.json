@@ -1,0 +1,926 @@
+[
+ {
+  "id": "I000",
+  "off": "03DEFA",
+  "len": 6,
+  "slots": [
+   "03DE74"
+  ],
+  "jp": "{n}コーヒー{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I001",
+  "off": "03DF00",
+  "len": 6,
+  "slots": [
+   "03DE76"
+  ],
+  "jp": "{n}こうちゃ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I002",
+  "off": "03DF06",
+  "len": 5,
+  "slots": [
+   "03DE78"
+  ],
+  "jp": "{n}ココア{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I003",
+  "off": "03DF0B",
+  "len": 6,
+  "slots": [
+   "03DE7A"
+  ],
+  "jp": "　゛{n}みす{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I004",
+  "off": "03DF11",
+  "len": 5,
+  "slots": [
+   "03DE7C"
+  ],
+  "jp": "{n}ケーキ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I005",
+  "off": "03DF16",
+  "len": 11,
+  "slots": [
+   "03DE7E"
+  ],
+  "jp": "　　゛{n}サントイッチ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I006",
+  "off": "03DF21",
+  "len": 12,
+  "slots": [
+   "03DE80"
+  ],
+  "jp": "　　゛　゛{n}ハンハーカ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I007",
+  "off": "03DF2D",
+  "len": 14,
+  "slots": [
+   "03DE82"
+  ],
+  "jp": "　　゛゛　゛{n}チースハーカ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I008",
+  "off": "03DF3B",
+  "len": 18,
+  "slots": [
+   "03DE84"
+  ],
+  "jp": "　　　　　゛　゛{n}フィッシュハーカ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I009",
+  "off": "03DF4D",
+  "len": 14,
+  "slots": [
+   "03DE86"
+  ],
+  "jp": "゛　゛゛　゛{n}ヒックハーカ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I010",
+  "off": "03DF5B",
+  "len": 6,
+  "slots": [
+   "03DE88"
+  ],
+  "jp": "゜{n}ホテト{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I011",
+  "off": "03DF61",
+  "len": 13,
+  "slots": [
+   "03DE8A"
+  ],
+  "jp": "　　　゛{n}フライトチキン{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I012",
+  "off": "03DF6E",
+  "len": 6,
+  "slots": [
+   "03DE8C"
+  ],
+  "jp": "{n}シェイク{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I013",
+  "off": "03DF74",
+  "len": 17,
+  "slots": [
+   "03DE8E"
+  ],
+  "jp": "　　゛　゛{n}ハンハークていしょく{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I014",
+  "off": "03DF85",
+  "len": 14,
+  "slots": [
+   "03DE90"
+  ],
+  "jp": "　゛{n}エヒフライていしょく{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I015",
+  "off": "03DF93",
+  "len": 6,
+  "slots": [
+   "03DE92"
+  ],
+  "jp": "{n}ステーキ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I016",
+  "off": "03DF99",
+  "len": 18,
+  "slots": [
+   "03DE94"
+  ],
+  "jp": "　゛　　　゛　゛{n}おはけハンハーク{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I017",
+  "off": "03DFAB",
+  "len": 11,
+  "slots": [
+   "03DE96"
+  ],
+  "jp": "{n}2。5キロステーキ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I018",
+  "off": "03DFB6",
+  "len": 6,
+  "slots": [
+   "03DE98"
+  ],
+  "jp": "{n}たこやき{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I019",
+  "off": "03DFBC",
+  "len": 10,
+  "slots": [
+   "03DE9A"
+  ],
+  "jp": "　　　゛{n}やきそは{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I020",
+  "off": "03DFC6",
+  "len": 6,
+  "slots": [
+   "03DE9C"
+  ],
+  "jp": "{n}コロッケ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I021",
+  "off": "03DFCC",
+  "len": 7,
+  "slots": [
+   "03DE9E"
+  ],
+  "jp": "{n}カキフライ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I022",
+  "off": "03DFD3",
+  "len": 9,
+  "slots": [
+   "03DEA0"
+  ],
+  "jp": "　゛{n}エヒフライ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I023",
+  "off": "03DFDC",
+  "len": 5,
+  "slots": [
+   "03DEA2"
+  ],
+  "jp": "{n}ライス{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I024",
+  "off": "03DFE1",
+  "len": 9,
+  "slots": [
+   "03DEA4"
+  ],
+  "jp": "　　゜{n}てんふら{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I025",
+  "off": "03DFEA",
+  "len": 6,
+  "slots": [
+   "03DEA6"
+  ],
+  "jp": "{n}てりやき{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I026",
+  "off": "03DFF0",
+  "len": 6,
+  "slots": [
+   "03DEA8"
+  ],
+  "jp": "{n}ラーメン{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I027",
+  "off": "03DFF6",
+  "len": 6,
+  "slots": [
+   "03DEAA"
+  ],
+  "jp": "{n}おやこ共{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I028",
+  "off": "03DFFC",
+  "len": 5,
+  "slots": [
+   "03DEAC"
+  ],
+  "jp": "{n}カツ共{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I029",
+  "off": "03E001",
+  "len": 5,
+  "slots": [
+   "03DEAE"
+  ],
+  "jp": "{n}てん共{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I030",
+  "off": "03E006",
+  "len": 12,
+  "slots": [
+   "03DEB0"
+  ],
+  "jp": "{n}カキフライていしょく{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I031",
+  "off": "03E012",
+  "len": 5,
+  "slots": [
+   "03DEB2"
+  ],
+  "jp": "{n}うな共{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I032",
+  "off": "03E017",
+  "len": 12,
+  "slots": [
+   "03DEB4"
+  ],
+  "jp": "゛{n}シャックのはらまき{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I033",
+  "off": "03E023",
+  "len": 7,
+  "slots": [
+   "03DEB6"
+  ],
+  "jp": "゛{n}カクラン{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I034",
+  "off": "03E02A",
+  "len": 16,
+  "slots": [
+   "03DEB8"
+  ],
+  "jp": "　　　　　゜{n}けっこうのハンツ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I035",
+  "off": "03E03A",
+  "len": 10,
+  "slots": [
+   "03DEBA"
+  ],
+  "jp": "{n}ハニーのマフラー{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I036",
+  "off": "03E044",
+  "len": 20,
+  "slots": [
+   "03DEBC"
+  ],
+  "jp": "゛　　゛　゛　゛{n}しゅうへいフラシャー{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I037",
+  "off": "03E058",
+  "len": 9,
+  "slots": [
+   "03DEBE"
+  ],
+  "jp": "゛{n}ほうかんふく{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I038",
+  "off": "03E061",
+  "len": 15,
+  "slots": [
+   "03DEC0"
+  ],
+  "jp": "　　゛{n}こうしのせんとうふく{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I039",
+  "off": "03E070",
+  "len": 9,
+  "slots": [
+   "03DEC2"
+  ],
+  "jp": "{n}アイスクリーム{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I040",
+  "off": "03E079",
+  "len": 11,
+  "slots": [
+   "03DEC4"
+  ],
+  "jp": "　゛{n}くしつきアイス{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I041",
+  "off": "03E084",
+  "len": 18,
+  "slots": [
+   "03DEC6"
+  ],
+  "jp": "　゜　　　　　゛{n}スホーツシュース{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I042",
+  "off": "03E096",
+  "len": 18,
+  "slots": [
+   "03DEC8"
+  ],
+  "jp": "　゜　　　　　゛{n}スハイクシュース{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I043",
+  "off": "03E0A8",
+  "len": 20,
+  "slots": [
+   "03DECA"
+  ],
+  "jp": "゛　　　　　　　゛{n}ハレリーナシュース{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I044",
+  "off": "03E0BC",
+  "len": 11,
+  "slots": [
+   "03DECC"
+  ],
+  "jp": "　゛　゛{n}とさんくつ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I045",
+  "off": "03E0C7",
+  "len": 6,
+  "slots": [
+   "03DECE"
+  ],
+  "jp": "{n}クーラー{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I046",
+  "off": "03E0CD",
+  "len": 7,
+  "slots": [
+   "03DED0"
+  ],
+  "jp": "{n}せんたくき{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I047",
+  "off": "03E0D4",
+  "len": 14,
+  "slots": [
+   "03DED2"
+  ],
+  "jp": "゛゛　　　゜{n}ヒテオテーフ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I048",
+  "off": "03E0E2",
+  "len": 10,
+  "slots": [
+   "03DED4"
+  ],
+  "jp": "゛{n}シャックナイフ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I049",
+  "off": "03E0EC",
+  "len": 7,
+  "slots": [
+   "03DED6"
+  ],
+  "jp": "{n}オニのツノ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I050",
+  "off": "03E0F3",
+  "len": 6,
+  "slots": [
+   "03DED8"
+  ],
+  "jp": "{n}チコのみ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I051",
+  "off": "03E0F9",
+  "len": 9,
+  "slots": [
+   "03DEDA"
+  ],
+  "jp": "{n}スサノオウの毛{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I052",
+  "off": "03E102",
+  "len": 5,
+  "slots": [
+   "03DEDC"
+  ],
+  "jp": "{n}キンコ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I053",
+  "off": "03E107",
+  "len": 8,
+  "slots": [
+   "03DEDE"
+  ],
+  "jp": "{n}うちゅうふく{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I054",
+  "off": "03E10F",
+  "len": 10,
+  "slots": [
+   "03DEE0"
+  ],
+  "jp": "　　　゛{n}にこまこ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I055",
+  "off": "03E119",
+  "len": 16,
+  "slots": [
+   "03DEE2"
+  ],
+  "jp": "　　　　　　゛{n}ななこのたまこ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I056",
+  "off": "03E129",
+  "len": 12,
+  "slots": [
+   "03DEE4"
+  ],
+  "jp": "　　゛{n}よねこんのツノ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I057",
+  "off": "03E135",
+  "len": 10,
+  "slots": [
+   "03DEE6"
+  ],
+  "jp": "{n}にっこうしゃしん{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I058",
+  "off": "03E13F",
+  "len": 6,
+  "slots": [
+   "03DEE8"
+  ],
+  "jp": "{n}しゃしん{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I059",
+  "off": "03E145",
+  "len": 15,
+  "slots": [
+   "03DEEA"
+  ],
+  "jp": "　　　　゛{n}ふるふるトリンク{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I060",
+  "off": "03E154",
+  "len": 9,
+  "slots": [
+   "03DEEC"
+  ],
+  "jp": "{n}クミコのひとみ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I061",
+  "off": "03E15D",
+  "len": 7,
+  "slots": [
+   "03DEEE"
+  ],
+  "jp": "゛{n}ハクチク{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I062",
+  "off": "03E164",
+  "len": 11,
+  "slots": [
+   "03DEF0"
+  ],
+  "jp": "　　゛{n}こなシュース{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I063",
+  "off": "03E16F",
+  "len": 9,
+  "slots": [
+   "03DEF2"
+  ],
+  "jp": "　゜{n}サホーター{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I064",
+  "off": "03E178",
+  "len": 5,
+  "slots": [
+   "03DEF4"
+  ],
+  "jp": "{n}たいこ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I065",
+  "off": "03E189",
+  "len": 14,
+  "slots": [
+   "03E17F"
+  ],
+  "jp": "　　゛　　゛{n}くろシャーシ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I066",
+  "off": "03E197",
+  "len": 14,
+  "slots": [
+   "03E181"
+  ],
+  "jp": "　　゛　　゛{n}あかシャーシ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I067",
+  "off": "03E1A5",
+  "len": 14,
+  "slots": [
+   "03E183"
+  ],
+  "jp": "　　゛　　゛{n}あおシャーシ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I068",
+  "off": "03E1C5",
+  "len": 15,
+  "slots": [
+   "03E1B3"
+  ],
+  "jp": "　゛　゜　゛{n}つきのヘーシへ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I069",
+  "off": "03E1D4",
+  "len": 19,
+  "slots": [
+   "03E1B5"
+  ],
+  "jp": "　　　　　゜　゛{n}さいしょのヘーシへ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I070",
+  "off": "03E1E7",
+  "len": 6,
+  "slots": [
+   "03E1B7"
+  ],
+  "jp": "{n}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I071",
+  "off": "03E1ED",
+  "len": 13,
+  "slots": [
+   "03E1B9"
+  ],
+  "jp": "{n}たいき　　{n}　　ちゅう{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I072",
+  "off": "03E1FA",
+  "len": 15,
+  "slots": [
+   "03E1BB"
+  ],
+  "jp": "　゛{n}みかわり　{n}　　ちゅう{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I073",
+  "off": "03E209",
+  "len": 14,
+  "slots": [
+   "03E1BD"
+  ],
+  "jp": "゜{n}ハシリ　　{n}　　ちゅう{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I074",
+  "off": "03E217",
+  "len": 14,
+  "slots": [
+   "03E1BF"
+  ],
+  "jp": "゛{n}ハイト　　{n}　　ちゅう{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I075",
+  "off": "03E225",
+  "len": 15,
+  "slots": [
+   "03E1C1"
+  ],
+  "jp": "　゛{n}進かし　　{n}　　ちゅう{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "I076",
+  "off": "03E234",
+  "len": 7,
+  "slots": [
+   "03E1C3"
+  ],
+  "jp": "{n}　　{n}　　{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ }
+]

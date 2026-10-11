@@ -1,0 +1,917 @@
+[
+ {
+  "id": "M000",
+  "off": "05DC0F",
+  "len": 81,
+  "slots": [
+   "05DB71"
+  ],
+  "jp": "{y:10}{x:0C}1　PLAYER{n}{n}{x:0C}2　PLAYERS{n}{n}{n}{x:08}©　DYNAMIC　　　1992{n}{n}{x:08}©　ALMANIC　　　1992{n}{n}{x:08}©　BANPRESTO　1992{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M001",
+  "off": "05DC60",
+  "len": 13,
+  "slots": [
+   "05DB73"
+  ],
+  "jp": "{y:10}{x:0B}　　　　　　　　　　{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M002",
+  "off": "05DC6D",
+  "len": 13,
+  "slots": [
+   "05DB75"
+  ],
+  "jp": "{y:12}{x:0B}　　　　　　　　　　{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M003",
+  "off": "05DC7A",
+  "len": 35,
+  "slots": [
+   "05DB77"
+  ],
+  "jp": "{y:16}{x:00}　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M004",
+  "off": "05DC9D",
+  "len": 23,
+  "slots": [
+   "05DB79"
+  ],
+  "jp": "{y:15}{x:05}かう{n}{n}{x:05}はなす{n}{x:09}゛{n}{x:05}みせを　てる{n}{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M005",
+  "off": "05DCB4",
+  "len": 23,
+  "slots": [
+   "05DB7B"
+  ],
+  "jp": "{y:15}{x:14}かう{n}{n}{x:14}はなす{n}{x:18}゛{n}{x:14}みせを　てる{n}{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M006",
+  "off": "05DCCB",
+  "len": 29,
+  "slots": [
+   "05DB7D"
+  ],
+  "jp": "{y:0F}{x:05}子分1　子分2　子分3　　　　子分1　子分2　子分3{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M007",
+  "off": "05DCE8",
+  "len": 7,
+  "slots": [
+   "05DB7F"
+  ],
+  "jp": "{y:02}{x:03}キッサ店{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M008",
+  "off": "05DCEF",
+  "len": 6,
+  "slots": [
+   "05DB81"
+  ],
+  "jp": "{y:02}{x:04}めしや{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M009",
+  "off": "05DCF5",
+  "len": 10,
+  "slots": [
+   "05DB83"
+  ],
+  "jp": "{y:01}{x:03}ﾞ{n}{x:03}てんきや{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M010",
+  "off": "05DCFF",
+  "len": 6,
+  "slots": [
+   "05DB85"
+  ],
+  "jp": "{y:02}{x:04}ふくや{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M011",
+  "off": "05DD05",
+  "len": 14,
+  "slots": [
+   "05DB87"
+  ],
+  "jp": "{y:01}{x:04}ﾞ＿ﾞ{n}{x:02}ハンハーカー{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M012",
+  "off": "05DD13",
+  "len": 11,
+  "slots": [
+   "05DB89"
+  ],
+  "jp": "{y:01}{x:03}ﾞﾞ{n}{x:03}たかしや{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M013",
+  "off": "05DD1E",
+  "len": 8,
+  "slots": [
+   "05DB8B"
+  ],
+  "jp": "{y:02}{x:03}レストラン{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M014",
+  "off": "05DD26",
+  "len": 13,
+  "slots": [
+   "05DB8D"
+  ],
+  "jp": "{y:01}{x:03}ﾟ{n}{x:02}スホーツ用品店{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M015",
+  "off": "05DD33",
+  "len": 41,
+  "slots": [
+   "05DB8F"
+  ],
+  "jp": "{y:02}{x:02}子分{n}{x:02}゛{n}{x:02}ふきのせんたく{n}{n}{x:02}もちもの{n}{x:02}゜{n}{x:02}ハラメータ{n}{n}{x:02}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M016",
+  "off": "05DD5C",
+  "len": 11,
+  "slots": [
+   "05DB91"
+  ],
+  "jp": "{y:01}{x:02}ﾟ{n}{x:02}ハラメータ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M017",
+  "off": "05DD67",
+  "len": 60,
+  "slots": [
+   "05DB93"
+  ],
+  "jp": "{y:07}{x:04}LIFE　　{icon0D}{icon0E}{icon0F}{n}{n}{x:04}゜{n}{x:04}ハンチ力・・・・・{n}{n}{x:04}キック力・・・・・{n}{x:04}゛　゛{n}{x:04}ほうきょ力・・・・{n}{n}{x:04}子分{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M018",
+  "off": "05DDA3",
+  "len": 5,
+  "slots": [
+   "05DB95"
+  ],
+  "jp": "{y:02}{x:02}子分{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M019",
+  "off": "05DDA8",
+  "len": 41,
+  "slots": [
+   "05DB97"
+  ],
+  "jp": "{y:03}{x:05}゛{n}{x:04}みかわり{n}{x:04}゜{n}{x:04}ハシリ{n}{x:04}゛{n}{x:04}ハイト{n}{x:05}゛{n}{x:04}進かす{n}{n}{x:04}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M020",
+  "off": "05DDD1",
+  "len": 19,
+  "slots": [
+   "05DB99"
+  ],
+  "jp": "{y:01}{x:03}ﾞ{n}{x:02}みかわり{n}{x:04}゛{n}{x:04}たれを?{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M021",
+  "off": "05DDE4",
+  "len": 7,
+  "slots": [
+   "05DB9B",
+   "05DB9F",
+   "05DBA3",
+   "05DBA7"
+  ],
+  "jp": "{y:12}{x:04}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M022",
+  "off": "05DDEB",
+  "len": 18,
+  "slots": [
+   "05DB9D"
+  ],
+  "jp": "{y:01}{x:02}ﾟ{n}{x:02}ハシリ{n}{x:04}゛{n}{x:04}たれを?{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M023",
+  "off": "05DDFD",
+  "len": 18,
+  "slots": [
+   "05DBA1"
+  ],
+  "jp": "{y:01}{x:02}ﾞ{n}{x:02}ハイト{n}{x:04}゛{n}{x:04}たれを?{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M024",
+  "off": "05DE0F",
+  "len": 18,
+  "slots": [
+   "05DBA5"
+  ],
+  "jp": "{y:01}{x:03}ﾞ{n}{x:02}進かす{n}{x:04}゛{n}{x:04}たれを?{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M025",
+  "off": "05DE21",
+  "len": 9,
+  "slots": [
+   "05DBA9"
+  ],
+  "jp": "{y:02}{x:02}何をかいに?{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M026",
+  "off": "05DE2A",
+  "len": 54,
+  "slots": [
+   "05DBAB"
+  ],
+  "jp": "{y:07}{x:06}゛{n}{x:04}こうけき用アイテム{n}{x:04}゛　゛{n}{x:04}ほうきょ用アイテム{n}{n}{x:04}HP用アイテム{n}{n}{x:04}そのた{n}{n}{x:04}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M027",
+  "off": "05DE60",
+  "len": 13,
+  "slots": [
+   "05DBAD"
+  ],
+  "jp": "{y:01}{x:02}ﾞ{n}{x:02}ふきのせんたく{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M028",
+  "off": "05DE6D",
+  "len": 7,
+  "slots": [
+   "05DBAF"
+  ],
+  "jp": "{y:0F}{x:04}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M029",
+  "off": "05DE74",
+  "len": 7,
+  "slots": [
+   "05DBB1"
+  ],
+  "jp": "{y:02}{x:02}もちもの{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M030",
+  "off": "05DE7B",
+  "len": 7,
+  "slots": [
+   "05DBB3"
+  ],
+  "jp": "{y:19}{x:04}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M031",
+  "off": "05DE82",
+  "len": 32,
+  "slots": [
+   "05DBB5"
+  ],
+  "jp": "{y:04}{x:05}ﾞ{n}{x:05}とうしますか?{n}{n}{x:06}つかう{n}{n}{x:06}わたす{n}{n}{x:06}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M032",
+  "off": "05DEA2",
+  "len": 32,
+  "slots": [
+   "05DBB7"
+  ],
+  "jp": "{y:0E}{x:05}ﾞ{n}{x:05}とうしますか?{n}{n}{x:06}つかう{n}{n}{x:06}わたす{n}{n}{x:06}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M033",
+  "off": "05DEC2",
+  "len": 15,
+  "slots": [
+   "05DBB9"
+  ],
+  "jp": "{y:12}{x:05}゛{n}{x:05}たれも　いません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M034",
+  "off": "05DED1",
+  "len": 15,
+  "slots": [
+   "05DBBB"
+  ],
+  "jp": "{y:09}{x:04}゛{n}{x:04}たれも　いません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M035",
+  "off": "05DEE0",
+  "len": 14,
+  "slots": [
+   "05DBBD"
+  ],
+  "jp": "{y:08}{x:04}何も　もっていません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M036",
+  "off": "05DEEE",
+  "len": 14,
+  "slots": [
+   "05DBBF"
+  ],
+  "jp": "{y:0D}{x:04}何も　もっていません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M037",
+  "off": "05DEFC",
+  "len": 30,
+  "slots": [
+   "05DBC1"
+  ],
+  "jp": "{y:06}{x:06}あいての{n}{x:0A}゛{n}{x:06}もちものか{n}{x:08}゜　゛{n}{x:06}いっはいてす{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M038",
+  "off": "05DF1A",
+  "len": 30,
+  "slots": [
+   "05DBC3"
+  ],
+  "jp": "{y:10}{x:06}あいての{n}{x:0A}゛{n}{x:06}もちものか{n}{x:08}゜　゛{n}{x:06}いっはいてす{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M039",
+  "off": "05DF38",
+  "len": 23,
+  "slots": [
+   "05DBC5"
+  ],
+  "jp": "{y:06}{x:06}わたす{n}{x:09}゛{n}{x:06}あいてか{n}{n}{x:06}いません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M040",
+  "off": "05DF4F",
+  "len": 23,
+  "slots": [
+   "05DBC7"
+  ],
+  "jp": "{y:10}{x:06}わたす{n}{x:09}゛{n}{x:06}あいてか{n}{n}{x:06}いません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M041",
+  "off": "05DF66",
+  "len": 40,
+  "slots": [
+   "05DBC9"
+  ],
+  "jp": "{y:04}{x:05}ﾞ{n}{x:05}たれに?{n}{x:06}゛゛{n}{x:06}しふん{n}{x:06}子分1{n}{x:06}子分2{n}{x:06}子分3{n}{x:06}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M042",
+  "off": "05DF8E",
+  "len": 40,
+  "slots": [
+   "05DBCB"
+  ],
+  "jp": "{y:0E}{x:05}ﾞ{n}{x:05}たれに?{n}{x:06}゛゛{n}{x:06}しふん{n}{x:06}子分1{n}{x:06}子分2{n}{x:06}子分3{n}{x:06}EXIT{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M043",
+  "off": "05DFB6",
+  "len": 14,
+  "slots": [
+   "05DBCD"
+  ],
+  "jp": "{y:01}{x:0C}ﾞ{n}{x:0C}とれにしますか?{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M044",
+  "off": "05DFC4",
+  "len": 52,
+  "slots": [
+   "05DBCF"
+  ],
+  "jp": "{y:14}{x:03}ﾞ＿ﾞ{n}{x:03}たれか　かう?{n}{n}{x:05}子分1・・・・・・・{n}{x:05}子分2・・・・・・・{n}{x:05}子分3・・・・・・・{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M045",
+  "off": "05DFF8",
+  "len": 52,
+  "slots": [
+   "05DBD1"
+  ],
+  "jp": "{y:14}{x:12}ﾞ＿ﾞ{n}{x:12}たれか　かう?{n}{n}{x:14}子分1・・・・・・・{n}{x:14}子分2・・・・・・・{n}{x:14}子分3・・・・・・・{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M046",
+  "off": "05E02C",
+  "len": 7,
+  "slots": [
+   "05DBD3"
+  ],
+  "jp": "{y:17}{x:0B}いません{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M047",
+  "off": "05E033",
+  "len": 7,
+  "slots": [
+   "05DBD5"
+  ],
+  "jp": "{y:18}{x:0B}いません{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M048",
+  "off": "05E03A",
+  "len": 7,
+  "slots": [
+   "05DBD7"
+  ],
+  "jp": "{y:19}{x:0B}いません{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M049",
+  "off": "05E041",
+  "len": 7,
+  "slots": [
+   "05DBD9"
+  ],
+  "jp": "{y:17}{x:1A}いません{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M050",
+  "off": "05E048",
+  "len": 7,
+  "slots": [
+   "05DBDB"
+  ],
+  "jp": "{y:18}{x:1A}いません{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M051",
+  "off": "05E04F",
+  "len": 7,
+  "slots": [
+   "05DBDD"
+  ],
+  "jp": "{y:19}{x:1A}いません{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M052",
+  "off": "05E056",
+  "len": 26,
+  "slots": [
+   "05DBDF"
+  ],
+  "jp": "{y:05}{x:0F}゛　　　　゛{n}{x:0D}子分かいないのて　かえません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M053",
+  "off": "05E070",
+  "len": 17,
+  "slots": [
+   "05DBE1"
+  ],
+  "jp": "{y:05}{x:12}゛{n}{x:0F}おかねか　たりません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M054",
+  "off": "05E081",
+  "len": 30,
+  "slots": [
+   "05DBE3"
+  ],
+  "jp": "{y:05}{x:11}゛　　゜　゛{n}{x:0D}もちものかいっはいて{n}{n}{x:16}かえません!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M055",
+  "off": "05E09F",
+  "len": 23,
+  "slots": [
+   "05DBE5"
+  ],
+  "jp": "{y:05}{x:10}゛　　゛゛{n}{x:0E}ありかとうこさいます!!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M056",
+  "off": "05E0B6",
+  "len": 31,
+  "slots": [
+   "05DBE7"
+  ],
+  "jp": "{y:05}{x:0F}゛{n}{x:0D}HPか　　　　かいふくしました!{n}{n}{x:13}/　　{icon0D}{icon0E}{icon0F}{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M057",
+  "off": "05E0D5",
+  "len": 16,
+  "slots": [
+   "05DBE9"
+  ],
+  "jp": "{y:06}{x:0E}あーー!　おいしかった!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M058",
+  "off": "05E0E5",
+  "len": 43,
+  "slots": [
+   "05DBEB"
+  ],
+  "jp": "{y:04}{x:0E}゛{n}{x:0D}くしつきアイス{n}{x:11}゛　゛　　゛　　　　゜{n}{x:0E}あたりか　てたのて　もう1ほん{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M059",
+  "off": "05E110",
+  "len": 26,
+  "slots": [
+   "05DBED"
+  ],
+  "jp": "{y:0E}{x:05}LET'S　TRY　BONUS　STAGE!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M060",
+  "off": "05E12A",
+  "len": 58,
+  "slots": [
+   "05DBEF"
+  ],
+  "jp": "{y:06}{x:09}゛{n}{x:05}もちものか{n}{x:07}゜　゛{n}{x:05}いっはいて{n}{x:05}゜{n}{x:05}ハシリさせても{n}{x:06}゛゛{n}{x:05}むたてすよ!!{n}{n}{n}{n}{n}{x:04}　　　　{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M061",
+  "off": "05E164",
+  "len": 56,
+  "slots": [
+   "05DBF1"
+  ],
+  "jp": "{y:0B}{x:13}ﾞ{n}{x:07}しょうひんを　ルーレットて　きめます!{n}{x:0A}゛　　　　　　　　゛{n}{x:07}何か　ホタンを　おしてくたさい!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M062",
+  "off": "05E19C",
+  "len": 23,
+  "slots": [
+   "05DBF3"
+  ],
+  "jp": "{y:0E}{x:06}LET'S　PLAY　STAGE　　!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M063",
+  "off": "05E1B3",
+  "len": 8,
+  "slots": [
+   "05DBF5"
+  ],
+  "jp": "{y:0A}{x:0D}PAUSE{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M064",
+  "off": "05E1BB",
+  "len": 33,
+  "slots": [
+   "05DBF7"
+  ],
+  "jp": "{y:04}{x:06}゛{n}{x:04}ここては{n}{x:09}゛{n}{x:04}子分コマントは{n}{n}{x:04}つかえません!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M065",
+  "off": "05E1DC",
+  "len": 21,
+  "slots": [
+   "05DBF9"
+  ],
+  "jp": "{y:05}{x:06}゛{n}{x:04}HPか{n}{n}{x:04}かいふくしました!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M066",
+  "off": "05E1F1",
+  "len": 23,
+  "slots": [
+   "05DBFB"
+  ],
+  "jp": "{y:05}{x:08}゛{n}{x:04}LIFEか{n}{x:05}゛{n}{x:04}あかりました!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M067",
+  "off": "05E208",
+  "len": 31,
+  "slots": [
+   "05DBFD"
+  ],
+  "jp": "{y:04}{x:04}゛　゛　　゛{n}{x:04}ほうきょ力か{n}{n}{n}{x:05}゛{n}{x:04}あかりました!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M068",
+  "off": "05E227",
+  "len": 29,
+  "slots": [
+   "05DBFF"
+  ],
+  "jp": "{y:04}{x:04}゜　　　゛{n}{x:04}ハンチ力か{n}{n}{n}{x:05}゛{n}{x:04}あかりました!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M069",
+  "off": "05E244",
+  "len": 25,
+  "slots": [
+   "05DC01"
+  ],
+  "jp": "{y:04}{x:08}゛{n}{x:04}キック力か{n}{n}{n}{x:05}゛{n}{x:04}あかりました!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M070",
+  "off": "05E25D",
+  "len": 11,
+  "slots": [
+   "05DC03"
+  ],
+  "jp": "{y:08}{x:04}を　つかいました{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M071",
+  "off": "05E268",
+  "len": 11,
+  "slots": [
+   "05DC05"
+  ],
+  "jp": "{y:04}{x:0A}はい{n}{n}{x:0A}いいえ{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M072",
+  "off": "05E273",
+  "len": 7,
+  "slots": [
+   "05DC07"
+  ],
+  "jp": "{y:02}{x:03}やみいち{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M073",
+  "off": "05E27A",
+  "len": 24,
+  "slots": [
+   "05DC09"
+  ],
+  "jp": "{y:06}{x:04}子分は　めいれいを{n}{n}{x:04}きょひしました!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M074",
+  "off": "05E292",
+  "len": 21,
+  "slots": [
+   "05DC0B"
+  ],
+  "jp": "{y:05}{x:06}゛{n}{x:04}ここては{n}{n}{x:04}つかえません!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "M075",
+  "off": "05E2A7",
+  "len": 7,
+  "slots": [
+   "05DC0D"
+  ],
+  "jp": "{y:07}{x:07}UP!!{end}",
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ }
+]

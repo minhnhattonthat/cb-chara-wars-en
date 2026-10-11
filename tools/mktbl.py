@@ -8,7 +8,7 @@ from pathlib import Path
 ROWS = {
     0x20: " !\"#＃・&'()×+、ー。/",
     0x30: "0123456789:;<=>?",
-    0x40: "@ABCDEFGHIJKLMNO",
+    0x40: "©ABCDEFGHIJKLMNO",
     0x50: "PQRSTUVWXYZ[¥]^_",
     0x60: "あいうえおかきくけこさしすせそた",
     0x70: "ちつてとなにぬねのはひふへほまみ",
@@ -23,8 +23,11 @@ VOICED = dict(zip("かきくけこさしすせそたちつてとはひふへほ�
                   "がぎぐげござじずぜぞだぢづでどばびぶべぼガギグゲゴザジズゼゾダヂヅデドバビブベボヴ"))
 SEMI = dict(zip("はひふへほハヒフヘホ", "ぱぴぷぺぽパピプペポ"))
 # Kanji/icons at 08-1F read from the VRAM sheet; unsure ones left as [XX] until seen in context.
-KANJI = {0x08: "子", 0x09: "分", 0x0A: "毛", 0x0B: "共", 0x0C: "用", 0x10: "♥", 0x18: "進", 0x19: "何", 0x1B: "力", 0x1F: "店"}
-CTRL = ["F7={yesno}", "F8={f8:1}", "FD={fd:1}", "FE={n}", "FF={end}"]
+KANJI = {0x08: "子", 0x09: "分", 0x0A: "毛", 0x0B: "共", 0x0C: "用", 0x10: "♥", 0x18: "進", 0x19: "何", 0x1A: "品", 0x1B: "力", 0x1F: "店",
+         # menu dakuten-row tiles (bank 0B menus): halfwidth marks keep them distinct from 8E/8F
+         0xE1: "＿", 0xE3: "ﾞ", 0xE4: "ﾟ"}
+CTRL = ["F7={yesno}", "F8={f8:1}", "FD={fd:1}", "FE={n}", "FF={end}",
+        "0D={icon0D}", "0E={icon0E}", "0F={icon0F}"]  # LIFE gauge / [MAX] graphic tiles
 
 
 def main():
@@ -45,7 +48,7 @@ def main():
     lines += [f"{k:02X}={v}" for k, v in sorted(dec.items())]
     out = Path(__file__).resolve().parent.parent / "tbl" / "jp.tbl"
     out.parent.mkdir(exist_ok=True)
-    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {out} ({len(lines) - 1} entries)")
 
 
