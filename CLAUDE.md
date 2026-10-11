@@ -27,4 +27,5 @@ Skill: translate-retro-game (H:/translation/cb-chara-wars/.claude/skills/transla
 
 ## Status
 - Done: v0.1 release candidate (dist/), all dialogue/menus/items translated + reviewed, intro + first shop + pause menu checked in Mesen2.
-- Open: title logo graphics still JP; credits not located (likely graphics); greyed menu items grey only JP-length; deep-game screens (later worlds, boss scenes, ending) not toured. Minor review polish deferred (ellipsis dot counts).
+- Graphics: title logo/subtitle (tools/titlegfx.py, data/title_maps.bin), signs/balloons/SFX/organ labels (tools/signs.py, ids from tools/gfxsurvey.py), menu highlight spans (tools/hilite.py -> $21:8000). Relocated gfx go to bank $22 (none needed so far).
+- Open: credits not located; uncompressed (non-LZ) graphics not surveyed; id 39 carved tablets left (illegible scribbles); deep-game screens (later worlds, bosses, ending, anatomy quiz) not toured. Minor review polish deferred (ellipsis dot counts).

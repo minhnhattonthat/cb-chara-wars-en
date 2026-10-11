@@ -20,11 +20,12 @@ What is translated
 - Menus: shops, items, henchman commands, status screens, prompts.
 - All item and equipment names, plus the 2-player "JOIN OK!!" HUD text.
 - Font: lowercase letters added. The dialogue box is widened from 20 to 28 columns.
+- Title logo ("CHARA WARS" / "The Lost Gaaag"), shop and town signs, speech balloons, sound effects, and the
+  anatomy chart labels, all redrawn in English.
 
 Known issues
 ------------
-- The title logo and other text drawn as graphics are still in Japanese.
-- Some greyed-out menu entries grey only part of the word.
+- Anatomy chart organ labels are tight (16x16 pixel slots).
 - Tested in Mesen2. Start from a cold boot (no savestates from the Japanese version).
 
 Credits
