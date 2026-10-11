@@ -322,7 +322,7 @@
    "05DBAB"
   ],
   "jp": "{y:07}{x:06}゛{n}{x:04}こうけき用アイテム{n}{x:04}゛　゛{n}{x:04}ほうきょ用アイテム{n}{n}{x:04}HP用アイテム{n}{n}{x:04}そのた{n}{n}{x:04}EXIT{end}",
-  "en": "{y:07}{n}{x:04}Attack items{n}{n}{x:04}Defense items{n}{n}{x:04}HP items{n}{n}{x:04}Other{n}{n}{x:04}EXIT{end}",
+  "en": "{y:07}{n}{x:04}Attack{n}{n}{x:04}Defense{n}{n}{x:04}Healing{n}{n}{x:04}Other{n}{n}{x:04}EXIT{end}",
   "status": "tl",
   "notes": ""
  },

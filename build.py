@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
+import hilite  # noqa: E402
 import lz  # noqa: E402
 import text  # noqa: E402
 import wrap  # noqa: E402
@@ -37,6 +38,8 @@ PATCHES = [
       for p, old in ((0xDA45, 10), (0xDA8B, 7), (0xDA9F, 4), (0xDAB3, 8), (0xDAC7, 8), (0xDADB, 9), (0xDAEF, 6))],
     # pause menu window 7 (row 5 col 1, h 11): width 9 -> 10 so "Henchmen" clears the border
     (0x5DA81 + 2, (9).to_bytes(2, "little"), (10).to_bytes(2, "little")),
+    # henchman command window 11 (row 6 col 3, h 12): width 6 -> 7 for "Decoy"/"Gofer"
+    (0x5DAA9 + 2, (6).to_bytes(2, "little"), (7).to_bytes(2, "little")),
     # 2P HUD "らんにゅう OK!!" (tilemap words, 10 cells at $06:8514) -> "JOIN OK!! "
     (0x30514, bytes(b for c in bytes.fromhex("868d75d262004f4b2121") for b in (c, 0x20)),
      bytes(b for c in b"JOIN OK!! " for b in (c, 0x20))),
@@ -147,6 +150,7 @@ def build(out=OUT, marker=False):
         pack_ptr16(rom, block, load(block), jp, en, area)
     if not in_place:                             # English build: lowercase font, wider dialogue box
         write_font(rom)
+        hilite.apply(rom)                        # menu highlight spans sized to the English labels
         for off, old, new in PATCHES:
             assert rom[off:off + len(old)] == old, f"patch at {off:06X}: unexpected bytes"
             rom[off:off + len(new)] = new

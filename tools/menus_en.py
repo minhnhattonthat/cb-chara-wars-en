@@ -34,7 +34,7 @@ EN = {
     "M023": "{y:01}{n}{x:02}Work{n}{n}{x:04}Who?{end}",
     "M024": "{y:01}{n}{x:02}Move{n}{n}{x:04}Who?{end}",
     "M025": "{y:02}{x:02}Buy what?{end}",
-    "M026": "{y:07}{n}{x:04}Attack items{n}{n}{x:04}Defense items{n}{n}{x:04}HP items{n}{n}{x:04}Other{n}{n}{x:04}EXIT{end}",
+    "M026": "{y:07}{n}{x:04}Attack{n}{n}{x:04}Defense{n}{n}{x:04}Healing{n}{n}{x:04}Other{n}{n}{x:04}EXIT{end}",
     "M027": "{y:01}{n}{x:02}Weapons{end}",
     "M028": "{y:0F}{x:04}EXIT{end}",
     "M029": "{y:02}{x:02}Items{end}",
