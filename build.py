@@ -23,6 +23,18 @@ DIALOGUE_BANK = 0x20                 # LoROM bank for relocated dialogue
 DIALOGUE_FILE = 0x100000             # file offset of $20:8000
 ENGINE_BANK_OPERAND = 0x338D8        # operand of LDA #$07 at $06:B8D7 (dialogue DB)
 HEADER_SIZE = 0x7FD7                 # ROM size byte: 0x0A = 1 MiB, 0x0B = 2 MiB
+LINE_WIDTH = 28                      # dialogue chars per line after the box widening below
+# (file offset, original bytes, English bytes); applied to English builds, original bytes asserted first.
+PATCHES = [
+    # window 0 (dialogue box) record at 0B:DA3B: tilemap pos row 6 col 5 -> col 1, width 22 -> 30
+    (0x5DA3B, bytes.fromhex("8a01 1600"), bytes.fromhex("8201 1e00")),
+    # dialogue line-start table $06:BA4C (4 lines, bottom first): column 6 -> 2
+    (0x33A4C, bytes.fromhex("0c03 8c02 0c02 8c01"), bytes.fromhex("0403 8402 0402 8401")),
+    # page-start cursor LDA #$018C -> #$0184 ($06:B5FB, $06:B686 -> $1EA5; $07:E396 -> $72)
+    (0x335FB, bytes.fromhex("a98c01"), bytes.fromhex("a98401")),
+    (0x33686, bytes.fromhex("a98c01"), bytes.fromhex("a98401")),
+    (0x3E396, bytes.fromhex("a98c01"), bytes.fromhex("a98401")),
+]
 
 
 def load(block):
@@ -30,10 +42,10 @@ def load(block):
 
 
 def encode_entry(block, e, jp, en, marker):
-    if marker and block == "dialogue":
-        return en.encode(marker_text(e))
     if e["en"]:
         return text.encode(en, block, e["en"])
+    if marker and block == "dialogue":
+        return en.encode(marker_text(e))
     return text.encode(jp, block, e["jp"])
 
 
@@ -112,8 +124,11 @@ def build(out=OUT, marker=False):
     total, in_place = pack_dialogue(rom, load("dialogue"), jp, en, marker)
     for block in text.PTR16:
         pack_ptr16(rom, block, load(block), jp, en)
-    if not in_place:                             # English build: lowercase font over the hiragana tiles
+    if not in_place:                             # English build: lowercase font, wider dialogue box
         write_font(rom)
+        for off, old, new in PATCHES:
+            assert rom[off:off + len(old)] == old, f"patch at {off:06X}: unexpected bytes"
+            rom[off:off + len(new)] = new
     out = Path(out)
     out.parent.mkdir(exist_ok=True)
     out.write_bytes(rom)
