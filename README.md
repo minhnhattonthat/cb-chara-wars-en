@@ -7,6 +7,9 @@ text and tools that build the patch.
 your own dump, `CB Chara Wars - Ushinawareta Gag (Japan).sfc` (1 MiB, CRC32 85AC87D5). The release README lists the
 hashes, patching steps and known issues.
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 ## What is translated
 All dialogue, menus and items, the title logo and subtitle, and the signs, speech balloons, sound effects and other
 in-game graphics labels. Names use the official or OVA spellings where they exist, in Western order, without

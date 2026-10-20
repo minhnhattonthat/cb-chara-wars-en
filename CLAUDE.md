@@ -18,6 +18,7 @@ Skill: translate-retro-game (H:/translation/cb-chara-wars/.claude/skills/transla
 
 ## Rulings (2026-10-11, details in glossary.md)
 - Drop honorifics, Western name order. English credits. Official/OVA names first, else Hepburn. No abbreviations (prefer engine work). Specs pre-approved.
+- Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update the Status section.
 
 ## Gotchas
 - Edit source with Edit/Write only; guard hook blocks sed -i / heredoc edits / piped test+commit.
